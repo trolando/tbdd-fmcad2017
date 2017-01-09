@@ -4,21 +4,11 @@ from contextlib import contextmanager
 import os
 import sys
 import re
-import itertools
+from itertools import chain, ifilter
 from tabulate import tabulate
 
 # import framework
 from expfw import Experiment, ExperimentEngine, online_variance
-
-
-@contextmanager
-def cd(newdir):
-    prevdir = os.getcwd()
-    os.chdir(os.path.expanduser(newdir))
-    try:
-        yield
-    finally:
-        os.chdir(prevdir)
 
 
 class ExpLTSmin(Experiment):
@@ -28,7 +18,7 @@ class ExpLTSmin(Experiment):
         if len(s) != 1:
             return None
         res['time'] = float(s[0])
-        s = re.compile(r'state space has ([\d\.,]+) states, ([\d\.,])+ nodes').findall(contents)
+        s = re.compile(r'state space has ([\d\.,]+) states, ([\d\.,]+) nodes').findall(contents)
         if len(s) != 1:
             return None
         res['states'] = int(s[0][0])
@@ -45,20 +35,23 @@ class ExpLTSmin(Experiment):
 
 class ExpBDD(ExpLTSmin):
     def __init__(self, name, workers, model):
+        self.group = name
         self.name = "{}-bdd-{}".format(name, workers)
-        self.call = ["./dve2lts-sym", "-rf", "--lace-workers={}".format(workers), "--vset=sylvan", model]
+        self.call = ["./dve2lts-sym", "--when", "-rf", "--lace-workers={}".format(workers), "--vset=sylvan", model]
 
 
 class ExpTBDD(ExpLTSmin):
     def __init__(self, name, workers, model):
+        self.group = name
         self.name = "{}-tbdd-{}".format(name, workers)
-        self.call = ["./dve2lts-sym", "-rf", "--lace-workers={}".format(workers), "--vset=tbdd", model]
+        self.call = ["./dve2lts-sym", "--when", "-rf", "--lace-workers={}".format(workers), "--vset=tbdd", model]
 
 
 class ExpLDD(ExpLTSmin):
     def __init__(self, name, workers, model):
+        self.group = name
         self.name = "{}-ldd-{}".format(name, workers)
-        self.call = ["./dve2lts-sym", "-rf", "--lace-workers={}".format(workers), "--vset=lddmc", model]
+        self.call = ["./dve2lts-sym", "--when", "-rf", "--lace-workers={}".format(workers), "--vset=lddmc", model]
 
 
 def float_str(f):
@@ -66,6 +59,16 @@ def float_str(f):
         return '--'
     else:
         return str(int(f))
+
+
+@contextmanager
+def cd(newdir):
+    prevdir = os.getcwd()
+    os.chdir(os.path.expanduser(newdir))
+    try:
+        yield
+    finally:
+        os.chdir(prevdir)
 
 
 class DVEExperiments(object):
@@ -87,13 +90,22 @@ class DVEExperiments(object):
             self.ldd1[name] = ExpLDD(name, 1, filename)
             self.bdd1[name] = ExpBDD(name, 1, filename)
             self.tbdd1[name] = ExpTBDD(name, 1, filename)
-            self.ldd48[name] = ExpLDD(name, 4, filename)
-            self.bdd48[name] = ExpBDD(name, 4, filename)
-            self.tbdd48[name] = ExpTBDD(name, 4, filename)
+            self.ldd48[name] = ExpLDD(name, 48, filename)
+            self.bdd48[name] = ExpBDD(name, 48, filename)
+            self.tbdd48[name] = ExpTBDD(name, 48, filename)
+
+    def all_experiments(self):
+        dicts = ["ldd1", "ldd48", "bdd1", "bdd48", "tbdd1", "tbdd48"]
+        return chain(*(getattr(self, x).values() for x in dicts))
+
+    def grouped_experiments(self):
+        dicts = ["ldd1", "ldd48", "bdd1", "bdd48", "tbdd1", "tbdd48"]
+        dicts = tuple(getattr(self, x) for x in dicts)
+        for k in set(chain(*(x.keys() for x in dicts))):
+            yield [x[k] for x in ifilter(lambda x: k in x, dicts)]
 
     def __iter__(self):
-        dicts = ["ldd1", "ldd48", "bdd1", "bdd48", "tbdd1", "tbdd48"]
-        return itertools.chain(*(getattr(self, x).values() for x in dicts))
+        return self.grouped_experiments()
 
     def analyse_experiment(self, name, results):
         r = {}
@@ -136,7 +148,7 @@ class DVEExperiments(object):
 
         print()
 
-        # Report times and sizes
+        # Report times
         table = []
         for name in sorted(res.keys()):
             r = res[name]
@@ -166,6 +178,25 @@ class DVEExperiments(object):
                           ])
 
         headers = ["Model      ", "T_bdd1", "T_bdd48", "Sbdd", "T_tbdd1", "T_tbdd48", "Stbdd", "T_ldd1", "T_ldd48", "Sldd"]
+        print(tabulate(table, headers))
+
+        print()
+
+        # Report sizes
+        table = []
+        for name in sorted(res.keys()):
+            r = res[name]
+
+            table.append([name,
+                          "{}".format(r['nodes_bdd1']),
+                          "{}".format(r['nodes_bdd48']),
+                          "{}".format(r['nodes_tbdd1']),
+                          "{}".format(r['nodes_tbdd48']),
+                          "{}".format(r['nodes_ldd1']),
+                          "{}".format(r['nodes_ldd48']),
+                          ])
+
+        headers = ["Model      ", "N_bdd1", "N_bdd48", "N_tbdd1", "N_tbdd48", "N_ldd1", "N_ldd48"]
         print(tabulate(table, headers))
 
 

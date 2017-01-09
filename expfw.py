@@ -13,9 +13,10 @@ class Experiment(object):
     DONE = 1
     TIMEOUT = 2
 
-    def __init__(self, name=None, call=None):
+    def __init__(self, name, call, group=None):
         self.name = name
         self.call = call
+        self.group = group
 
     def parse_log(self, contents):
         """Parse the log file.
@@ -148,7 +149,7 @@ class ExperimentEngine(object):
             self.notdone[i] += [x[0] for x in self.timeouts[i] if x[1] < self.timeout]
             self.timeouts[i] = [x for x in self.timeouts[i] if x[1] >= self.timeout]
 
-        # report
+        # report current status
         n_iterations = len(self.results)
         n_successful = sum([len(x) for x in self.results])
         n_timeout = sum([len(x) for x in self.timeouts])
@@ -166,19 +167,31 @@ class ExperimentEngine(object):
                 self.timeouts.append([])
                 self.notdone.append([])
             random.shuffle(todo)
-            for e in todo:
-                # run experiment
-                filename = "{}/{}-{}".format(self.logdir, e.name, i)
-                status, value = e.run_experiment(self.timeout, filename)
-                # store result
-                if status == Experiment.DONE:
-                    self.results[i] += [(e, value)]
-                elif status == Experiment.TIMEOUT:
-                    self.timeouts[i] += [(e, value)]
+            while len(todo):
+                # get next experiment (random)
+                e = random.choice(todo)
+                # get all experiments with this group
+                if getattr(e, 'group', None) is not None:
+                    exps = [x for x in todo if x.group == e.group]
+                    todo = [x for x in todo if x.group != e.group]
                 else:
-                    self.notdone[i] += [e]
-                # sleep 2 seconds to allow OS to swap stuff in or out
-                time.sleep(2)
+                    exps = [e]
+                    todo.remove(e)
+                for j, e in enumerate(exps):
+                    # print header
+                    print("It {} ({}/{}): ".format(i, len(self.experiments)-len(todo)-len(exps)+j+1, len(self.experiments)), end='')
+                    # run experiment
+                    filename = "{}/{}-{}".format(self.logdir, e.name, i)
+                    status, value = e.run_experiment(self.timeout, filename)
+                    # store result
+                    if status == Experiment.DONE:
+                        self.results[i] += [(e, value)]
+                    elif status == Experiment.TIMEOUT:
+                        self.timeouts[i] += [(e, value)]
+                    else:
+                        self.notdone[i] += [e]
+                    # sleep 2 seconds to allow OS to swap stuff in or out
+                    time.sleep(2)
             print("Iteration {} done.".format(i))
 
     def __iadd__(self, other):

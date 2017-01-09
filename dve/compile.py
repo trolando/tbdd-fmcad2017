@@ -16,7 +16,7 @@ def generate_all(files=None):
     files = strip_ext(list(set(files)), ".dve")
     random.shuffle(files)
 
-    divine = sh.Command("../divine")
+    divine = sh.Command("divine")
 
     for m in files:
 
