@@ -54,6 +54,27 @@ class ExpLDD(ExpLTSmin):
         self.call = ["./dve2lts-sym", "--when", "-rf", "--lace-workers={}".format(workers), "--vset=lddmc", model]
 
 
+class ExpPnmlBDD(ExpLTSmin):
+    def __init__(self, name, workers, model):
+        self.group = name
+        self.name = "{}-bdd-{}".format(name, workers)
+        self.call = ["./pnml2lts-sym", "--when", "-rf", "--lace-workers={}".format(workers), "--vset=sylvan", model]
+
+
+class ExpPnmlTBDD(ExpLTSmin):
+    def __init__(self, name, workers, model):
+        self.group = name
+        self.name = "{}-tbdd-{}".format(name, workers)
+        self.call = ["./pnml2lts-sym", "--when", "-rf", "--lace-workers={}".format(workers), "--vset=tbdd", model]
+
+
+class ExpPnmlLDD(ExpLTSmin):
+    def __init__(self, name, workers, model):
+        self.group = name
+        self.name = "{}-ldd-{}".format(name, workers)
+        self.call = ["./pnml2lts-sym", "--when", "-rf", "--lace-workers={}".format(workers), "--vset=lddmc", model]
+
+
 def float_str(f):
     if str(f) == 'nan':
         return '--'
@@ -71,7 +92,7 @@ def cd(newdir):
         os.chdir(prevdir)
 
 
-class DVEExperiments(object):
+class DveExperiments(object):
     def __init__(self, blocks_first=True):
         # initialize self.models
         with cd("dve"):
@@ -200,12 +221,38 @@ class DVEExperiments(object):
         print(tabulate(table, headers))
 
 
+class PnmlExperiments(DveExperiments):
+    def __init__(self, blocks_first=True):
+        # initialize self.models
+        with cd("pnml"):
+            files = list(filter(os.path.isfile, os.listdir(os.curdir)))
+        files = [f[:-len(".pnml")] for f in filter(lambda f: f.endswith(".pnml"), files)]
+        self.models = tuple([x, "pnml/{}.pnml".format(x)] for x in files)
+
+        # add for each model
+        self.ldd1 = {}
+        self.ldd48 = {}
+        self.bdd1 = {}
+        self.bdd48 = {}
+        self.tbdd1 = {}
+        self.tbdd48 = {}
+        for name, filename in self.models:
+            self.ldd1[name] = ExpPnmlLDD(name, 1, filename)
+            self.bdd1[name] = ExpPnmlBDD(name, 1, filename)
+            self.tbdd1[name] = ExpPnmlTBDD(name, 1, filename)
+            self.ldd48[name] = ExpPnmlLDD(name, 48, filename)
+            self.bdd48[name] = ExpPnmlBDD(name, 48, filename)
+            self.tbdd48[name] = ExpPnmlTBDD(name, 48, filename)
+
+ 
 # the experiments
-dve = DVEExperiments()
+dve = DveExperiments()
+pnml = PnmlExperiments()
 
 # make engine
-sr = ExperimentEngine(outdir='logs', timeout=3600)
+sr = ExperimentEngine(outdir='logs', timeout=300)
 sr += dve
+sr += pnml
 
 if __name__ == "__main__":
     # select engine
@@ -220,6 +267,8 @@ if __name__ == "__main__":
             results = [res for sublist in sr.results for res in sublist]
             dve.analyse(results)
             dve.report()
+            pnml.analyse(results)
+            pnml.report()
 
             # with open('results_ctmc.tex', 'w') as f:
             #    ctmc.report_latex(f)
