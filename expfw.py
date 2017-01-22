@@ -179,7 +179,7 @@ class ExperimentEngine(object):
                     todo.remove(e)
                 for j, e in enumerate(exps):
                     # print header
-                    print("It {} ({}/{}): ".format(i, len(self.experiments)-len(todo)-len(exps)+j+1, len(self.experiments)), end='')
+                    print("{} iteration {} ({}/{}): ".format(time.strftime('%X'), i, len(self.experiments)-len(todo)-len(exps)+j+1, len(self.experiments)), end='')
                     # run experiment
                     filename = "{}/{}-{}".format(self.logdir, e.name, i)
                     status, value = e.run_experiment(self.timeout, filename)
