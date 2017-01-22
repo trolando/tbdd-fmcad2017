@@ -6,9 +6,15 @@ import sys
 import re
 from itertools import chain, ifilter
 from tabulate import tabulate
+from numpy import nanmin
 
 # import framework
-from expfw import Experiment, ExperimentEngine, online_variance
+from expfw import Experiment, ExperimentEngine, online_variance, fixnan
+
+
+colors = True
+if colors:
+    from termcolor import colored
 
 
 class ExpLTSmin(Experiment):
@@ -164,15 +170,35 @@ class DveExperiments(object):
                           "{}".format(r['n_ldd1']),
                           "{}".format(r['n_ldd48']),
                           ])
+        table = fixnan(table)
         headers = ["Model      ", "#bdd1", "#bdd48", "#tbdd1", "#tbdd48", "#ldd1", "#ldd48"]
         print(tabulate(table, headers))
 
         print()
 
+        # Remove experiments that are not done
+        exp_sum = lambda r: r['n_bdd1'] + r['n_bdd48'] + r['n_tbdd1'] + r['n_tbdd48'] + r['n_ldd1'] + r['n_ldd48']
+        names = sorted(filter(lambda f: exp_sum(res[f]) > 0, res.keys()))
+
         # Report times
         table = []
-        for name in sorted(res.keys()):
+        for name in names:
             r = res[name]
+            t_bdd1 = "{:<6.2f}".format(r['t_bdd1'])
+            t_tbdd1 = "{:<6.2f}".format(r['t_tbdd1'])
+            t_ldd1 = "{:<6.2f}".format(r['t_ldd1'])
+            t_bdd48 = "{:<6.2f}".format(r['t_bdd48'])
+            t_tbdd48 = "{:<6.2f}".format(r['t_tbdd48'])
+            t_ldd48 = "{:<6.2f}".format(r['t_ldd48'])
+            if colors:
+                lowest1 = nanmin([r['t_bdd1'], r['t_tbdd1'], r['t_ldd1']])
+                lowest48 = nanmin([r['t_bdd48'], r['t_tbdd48'], r['t_ldd48']])
+                if r['t_bdd1'] == lowest1: t_bdd1 = colored(t_bdd1, 'green', attrs=['bold'])
+                if r['t_tbdd1'] == lowest1: t_tbdd1 = colored(t_tbdd1, 'green', attrs=['bold'])
+                if r['t_ldd1'] == lowest1: t_ldd1 = colored(t_ldd1, 'green', attrs=['bold'])
+                if r['t_bdd48'] == lowest48: t_bdd48 = colored(t_bdd48, 'green', attrs=['bold'])
+                if r['t_tbdd48'] == lowest48: t_tbdd48 = colored(t_tbdd48, 'green', attrs=['bold'])
+                if r['t_ldd48'] == lowest48: t_ldd48 = colored(t_ldd48, 'green', attrs=['bold'])
             if r['t_bdd48'] > 0:
                 s_bdd = r['t_bdd1']/r['t_bdd48']
             else:
@@ -185,19 +211,14 @@ class DveExperiments(object):
                 s_ldd = r['t_ldd1']/r['t_ldd48']
             else:
                 s_ldd = float('nan')
-
             table.append([name,
-                          "{:<6.2f}".format(r['t_bdd1']),
-                          "{:<6.2f}".format(r['t_bdd48']),
-                          "{:<6.2f}".format(s_bdd),
-                          "{:<6.2f}".format(r['t_tbdd1']),
-                          "{:<6.2f}".format(r['t_tbdd48']),
-                          "{:<6.2f}".format(s_tbdd),
-                          "{:<6.2f}".format(r['t_ldd1']),
-                          "{:<6.2f}".format(r['t_ldd48']),
-                          "{:<6.2f}".format(s_ldd),
+                          t_bdd1, t_tbdd1, t_ldd1, t_bdd48, t_tbdd48, t_ldd48,
+                          "{:<6.2f}".format((s_bdd)),
+                          "{:<6.2f}".format((s_tbdd)),
+                          "{:<6.2f}".format((s_ldd)),
                           ])
 
+        table = fixnan(table)
         headers = ["Model      ", "T_bdd1", "T_bdd48", "Sbdd", "T_tbdd1", "T_tbdd48", "Stbdd", "T_ldd1", "T_ldd48", "Sldd"]
         print(tabulate(table, headers))
 
@@ -205,19 +226,28 @@ class DveExperiments(object):
 
         # Report sizes
         table = []
-        for name in sorted(res.keys()):
+        for name in names:
             r = res[name]
+            nodes_bdd1 = "{}".format(r['nodes_bdd1'])
+            nodes_tbdd1 = "{}".format(r['nodes_tbdd1'])
+            nodes_ldd1 = "{}".format(r['nodes_ldd1'])
+            nodes_bdd48 = "{}".format(r['nodes_bdd48'])
+            nodes_tbdd48 = "{}".format(r['nodes_tbdd48'])
+            nodes_ldd48 = "{}".format(r['nodes_ldd48'])
+            if colors:
+                lowest1 = nanmin([r['nodes_bdd1'], r['nodes_tbdd1'], r['nodes_ldd1']])
+                lowest48 = nanmin([r['nodes_bdd48'], r['nodes_tbdd48'], r['nodes_ldd48']])
+                if r['nodes_bdd1'] == lowest1: nodes_bdd1 = colored(nodes_bdd1, 'green', attrs=['bold'])
+                if r['nodes_tbdd1'] == lowest1: nodes_tbdd1 = colored(nodes_tbdd1, 'green', attrs=['bold'])
+                if r['nodes_ldd1'] == lowest1: nodes_ldd1 = colored(nodes_ldd1, 'green', attrs=['bold'])
+                if r['nodes_bdd48'] == lowest48: nodes_bdd48 = colored(nodes_bdd48, 'green', attrs=['bold'])
+                if r['nodes_tbdd48'] == lowest48: nodes_tbdd48 = colored(nodes_tbdd48, 'green', attrs=['bold'])
+                if r['nodes_ldd48'] == lowest48: nodes_ldd48 = colored(nodes_ldd48, 'green', attrs=['bold'])
+ 
+            table.append([name, nodes_bdd1, nodes_tbdd1, nodes_ldd1])
 
-            table.append([name,
-                          "{}".format(r['nodes_bdd1']),
-                          "{}".format(r['nodes_bdd48']),
-                          "{}".format(r['nodes_tbdd1']),
-                          "{}".format(r['nodes_tbdd48']),
-                          "{}".format(r['nodes_ldd1']),
-                          "{}".format(r['nodes_ldd48']),
-                          ])
-
-        headers = ["Model      ", "N_bdd1", "N_bdd48", "N_tbdd1", "N_tbdd48", "N_ldd1", "N_ldd48"]
+        table = fixnan(table)
+        headers = ["Model      ", "N_bdd", "N_tbdd", "N_ldd"]
         print(tabulate(table, headers))
 
 
@@ -250,9 +280,9 @@ dve = DveExperiments()
 pnml = PnmlExperiments()
 
 # make engine
-sr = ExperimentEngine(outdir='logs', timeout=300)
+sr = ExperimentEngine(outdir='logs', timeout=1200)
 sr += dve
-sr += pnml
+# sr += pnml
 
 if __name__ == "__main__":
     # select engine
@@ -266,9 +296,9 @@ if __name__ == "__main__":
             # flatten results
             results = [res for sublist in sr.results for res in sublist]
             dve.analyse(results)
-            dve.report()
             pnml.analyse(results)
-            pnml.report()
+            dve.report()
+            #pnml.report()
 
             # with open('results_ctmc.tex', 'w') as f:
             #    ctmc.report_latex(f)
