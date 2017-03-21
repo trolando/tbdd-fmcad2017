@@ -1,0 +1,62 @@
+pnml2lts-sym, 0.000: Exploration order is bfs-prev
+pnml2lts-sym, 0.000: Saturation strategy is none
+pnml2lts-sym, 0.000: Guided search strategy is unguided
+pnml2lts-sym, 0.000: Attractor strategy is default
+pnml2lts-sym, 0.000: opening pnml/trg_4-02-2.pnml
+pnml2lts-sym, 0.009: Petri net has 184 places, 156 transitions and 624 arcs
+pnml2lts-sym, 0.009: There are 0 safe places
+pnml2lts-sym, 0.011: Petri net pnml/trg_4-02-2.pnml analyzed
+pnml2lts-sym, 0.014: Loading Petri net took 0.010 real 0.010 user 0.000 sys
+pnml2lts-sym, 0.014: Initializing regrouping layer
+pnml2lts-sym, 0.015: Regroup specification: f
+pnml2lts-sym, 0.015: Regroup FORCE
+pnml2lts-sym, 0.028: Regrouping: 156->156 groups
+pnml2lts-sym, 0.030: Regrouping took 0.010 real 0.020 user 0.000 sys
+pnml2lts-sym, 0.030: state vector length is 184; there are 156 groups
+pnml2lts-sym, 0.030: Creating a multi-core ListDD domain.
+pnml2lts-sym, 0.030: Sylvan allocates 10.500 GB virtual memory for nodes table and operation cache.
+pnml2lts-sym, 0.030: Initial nodes table and operation cache requires 672.00 MB.
+pnml2lts-sym, 0.356: Using GBgetTransitionsShortR2W as next-state function
+pnml2lts-sym, 0.429: got initial state
+pnml2lts-sym, 0.429: level 0 is finished
+pnml2lts-sym, 0.608: level 1 is finished
+pnml2lts-sym, 0.695: level 2 is finished
+pnml2lts-sym, 0.818: level 3 is finished
+pnml2lts-sym, 1.044: level 4 is finished
+pnml2lts-sym, 1.489: level 5 is finished
+pnml2lts-sym, 2.363: level 6 is finished
+pnml2lts-sym, 4.520: level 7 is finished
+pnml2lts-sym, 4.818: vset_sylvan: starting garbage collection
+pnml2lts-sym, 4.866: vset_sylvan: garbage collection done
+pnml2lts-sym, 11.080: level 8 is finished
+pnml2lts-sym, 11.907: vset_sylvan: starting garbage collection
+pnml2lts-sym, 11.980: vset_sylvan: garbage collection done
+pnml2lts-sym, 26.084: level 9 is finished
+pnml2lts-sym, 26.763: vset_sylvan: starting garbage collection
+pnml2lts-sym, 26.894: vset_sylvan: garbage collection done
+pnml2lts-sym, 57.894: level 10 is finished
+pnml2lts-sym, 57.961: vset_sylvan: starting garbage collection
+pnml2lts-sym, 58.161: vset_sylvan: garbage collection done
+pnml2lts-sym, 120.831: vset_sylvan: starting garbage collection
+pnml2lts-sym, 121.088: vset_sylvan: garbage collection done
+pnml2lts-sym, 121.240: level 11 is finished
+pnml2lts-sym, 184.512: vset_sylvan: starting garbage collection
+pnml2lts-sym, 184.899: vset_sylvan: garbage collection done
+pnml2lts-sym, 243.725: vset_sylvan: starting garbage collection
+pnml2lts-sym, 244.187: vset_sylvan: garbage collection done
+pnml2lts-sym, 248.115: level 12 is finished
+pnml2lts-sym, 300.825: vset_sylvan: starting garbage collection
+pnml2lts-sym, 301.289: vset_sylvan: garbage collection done
+pnml2lts-sym, 355.372: vset_sylvan: starting garbage collection
+pnml2lts-sym, 356.071: vset_sylvan: garbage collection done
+pnml2lts-sym, 403.571: vset_sylvan: starting garbage collection
+pnml2lts-sym, 404.265: vset_sylvan: garbage collection done
+pnml2lts-sym, 452.316: vset_sylvan: starting garbage collection
+pnml2lts-sym, 452.954: vset_sylvan: garbage collection done
+pnml2lts-sym, 497.682: level 13 is finished
+pnml2lts-sym, 511.665: vset_sylvan: starting garbage collection
+pnml2lts-sym, 512.238: vset_sylvan: garbage collection done
+pnml2lts-sym, 567.360: vset_sylvan: starting garbage collection
+pnml2lts-sym, 568.169: vset_sylvan: garbage collection done
+pnml2lts-sym, 597.108: vset_sylvan: starting garbage collection
+pnml2lts-sym, 598.087: vset_sylvan: garbage collection done

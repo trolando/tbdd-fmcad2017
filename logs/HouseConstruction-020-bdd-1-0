@@ -1,0 +1,81 @@
+pnml2lts-sym, 0.000: Exploration order is bfs-prev
+pnml2lts-sym, 0.000: Saturation strategy is none
+pnml2lts-sym, 0.000: Guided search strategy is unguided
+pnml2lts-sym, 0.000: Attractor strategy is default
+pnml2lts-sym, 0.000: opening pnml/HouseConstruction-020.pnml
+pnml2lts-sym, 0.004: Petri net has 26 places, 18 transitions and 51 arcs
+pnml2lts-sym, 0.004: There are 0 safe places
+pnml2lts-sym, 0.004: Petri net pnml/HouseConstruction-020.pnml analyzed
+pnml2lts-sym, 0.005: Loading Petri net took 0.000 real 0.010 user 0.000 sys
+pnml2lts-sym, 0.005: Initializing regrouping layer
+pnml2lts-sym, 0.005: Regroup specification: f
+pnml2lts-sym, 0.005: Regroup FORCE
+pnml2lts-sym, 0.005: Regrouping: 18->18 groups
+pnml2lts-sym, 0.005: Regrouping took 0.000 real 0.000 user 0.000 sys
+pnml2lts-sym, 0.005: state vector length is 26; there are 18 groups
+pnml2lts-sym, 0.005: Creating a Sylvan domain.
+pnml2lts-sym, 0.005: Sylvan allocates 10.500 GB virtual memory for nodes table and operation cache.
+pnml2lts-sym, 0.005: Initial nodes table and operation cache requires 672.00 MB.
+pnml2lts-sym, 0.113: Using GBgetTransitionsShortR2W as next-state function
+pnml2lts-sym, 0.195: got initial state
+pnml2lts-sym, 0.195: level 0 is finished
+pnml2lts-sym, 0.196: level 1 is finished
+pnml2lts-sym, 0.197: level 2 is finished
+pnml2lts-sym, 0.197: level 3 is finished
+pnml2lts-sym, 0.199: level 4 is finished
+pnml2lts-sym, 0.202: level 5 is finished
+pnml2lts-sym, 0.205: level 6 is finished
+pnml2lts-sym, 0.212: level 7 is finished
+pnml2lts-sym, 0.221: level 8 is finished
+pnml2lts-sym, 0.233: level 9 is finished
+pnml2lts-sym, 0.251: level 10 is finished
+pnml2lts-sym, 0.274: level 11 is finished
+pnml2lts-sym, 0.302: level 12 is finished
+pnml2lts-sym, 0.339: level 13 is finished
+pnml2lts-sym, 0.385: level 14 is finished
+pnml2lts-sym, 0.443: level 15 is finished
+pnml2lts-sym, 0.519: level 16 is finished
+pnml2lts-sym, 0.608: level 17 is finished
+pnml2lts-sym, 0.720: level 18 is finished
+pnml2lts-sym, 0.859: level 19 is finished
+pnml2lts-sym, 1.022: level 20 is finished
+pnml2lts-sym, 1.204: level 21 is finished
+pnml2lts-sym, 1.445: level 22 is finished
+pnml2lts-sym, 1.726: level 23 is finished
+pnml2lts-sym, 2.088: level 24 is finished
+pnml2lts-sym, 2.449: level 25 is finished
+pnml2lts-sym, 2.909: level 26 is finished
+pnml2lts-sym, 3.377: level 27 is finished
+pnml2lts-sym, 3.993: level 28 is finished
+pnml2lts-sym, 4.800: level 29 is finished
+pnml2lts-sym, 5.712: level 30 is finished
+pnml2lts-sym, 6.690: level 31 is finished
+pnml2lts-sym, 7.797: level 32 is finished
+pnml2lts-sym, 9.101: level 33 is finished
+pnml2lts-sym, 10.534: level 34 is finished
+pnml2lts-sym, 12.214: level 35 is finished
+pnml2lts-sym, 14.339: level 36 is finished
+pnml2lts-sym, 17.078: level 37 is finished
+pnml2lts-sym, 20.285: level 38 is finished
+pnml2lts-sym, 24.067: level 39 is finished
+pnml2lts-sym, 28.424: level 40 is finished
+pnml2lts-sym, 32.896: level 41 is finished
+pnml2lts-sym, 38.486: level 42 is finished
+pnml2lts-sym, 45.876: level 43 is finished
+pnml2lts-sym, 55.514: level 44 is finished
+pnml2lts-sym, 67.190: level 45 is finished
+pnml2lts-sym, 82.239: level 46 is finished
+pnml2lts-sym, 94.671: vset_sylvan: starting garbage collection
+pnml2lts-sym, 95.809: vset_sylvan: garbage collection done
+pnml2lts-sym, 102.737: level 47 is finished
+pnml2lts-sym, 122.581: vset_sylvan: starting garbage collection
+pnml2lts-sym, 126.762: vset_sylvan: garbage collection done
+pnml2lts-sym, 158.419: vset_sylvan: starting garbage collection
+pnml2lts-sym, 171.439: vset_sylvan: garbage collection done
+pnml2lts-sym, 210.800: vset_sylvan: starting garbage collection
+pnml2lts-sym, 237.663: vset_sylvan: garbage collection done
+pnml2lts-sym, 321.807: vset_sylvan: starting garbage collection
+pnml2lts-sym, 385.537: vset_sylvan: garbage collection done
+pnml2lts-sym, 388.064: vset_sylvan: starting garbage collection
+pnml2lts-sym, 452.374: vset_sylvan: garbage collection done
+BDD Unique table full, 241189311 of 268435456 buckets filled!

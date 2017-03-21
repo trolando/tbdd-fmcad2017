@@ -1,0 +1,38 @@
+pnml2lts-sym, 0.000: Exploration order is bfs-prev
+pnml2lts-sym, 0.000: Saturation strategy is none
+pnml2lts-sym, 0.000: Guided search strategy is unguided
+pnml2lts-sym, 0.000: Attractor strategy is default
+pnml2lts-sym, 0.000: opening pnml/PolyORB-NT-S05-J60-unfolded.pnml
+pnml2lts-sym, 0.131: Petri net has 909 places, 1970 transitions and 12584 arcs
+pnml2lts-sym, 0.131: There are 0 safe places
+pnml2lts-sym, 0.188: Petri net pnml/PolyORB-NT-S05-J60-unfolded.pnml analyzed
+pnml2lts-sym, 0.243: Loading Petri net took 0.240 real 0.210 user 0.030 sys
+pnml2lts-sym, 0.243: Initializing regrouping layer
+pnml2lts-sym, 0.244: Regroup specification: f
+pnml2lts-sym, 0.244: Regroup FORCE
+pnml2lts-sym, 0.610: Regrouping: 1970->1970 groups
+pnml2lts-sym, 0.709: Regrouping took 0.470 real 0.460 user 0.000 sys
+pnml2lts-sym, 0.709: state vector length is 909; there are 1970 groups
+pnml2lts-sym, 0.709: Creating a Sylvan domain.
+pnml2lts-sym, 0.709: Sylvan allocates 10.500 GB virtual memory for nodes table and operation cache.
+pnml2lts-sym, 0.709: Initial nodes table and operation cache requires 672.00 MB.
+pnml2lts-sym, 0.819: Using GBgetTransitionsShortR2W as next-state function
+pnml2lts-sym, 1.081: got initial state
+pnml2lts-sym, 1.085: level 0 is finished
+pnml2lts-sym, 1.094: vrel_add_act not supported; falling back to vrel_add_cpy
+pnml2lts-sym, 1.148: level 1 is finished
+pnml2lts-sym, 1.268: level 2 is finished
+pnml2lts-sym, 1.458: level 3 is finished
+pnml2lts-sym, 1.673: level 4 is finished
+pnml2lts-sym, 1.829: level 5 is finished
+pnml2lts-sym, 1.901: level 6 is finished
+pnml2lts-sym, 1.925: level 7 is finished
+pnml2lts-sym, 1.947: level 8 is finished
+pnml2lts-sym, 2.068: level 9 is finished
+pnml2lts-sym, 2.668: level 10 is finished
+pnml2lts-sym, 5.652: level 11 is finished
+pnml2lts-sym, 14.443: level 12 is finished
+pnml2lts-sym, 79.691: level 13 is finished
+pnml2lts-sym, 217.017: vset_sylvan: starting garbage collection
+pnml2lts-sym, 217.564: vset_sylvan: garbage collection done
+pnml2lts-sym, 271.816: level 14 is finished

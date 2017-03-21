@@ -1,0 +1,46 @@
+pnml2lts-sym, 0.000: Exploration order is bfs-prev
+pnml2lts-sym, 0.000: Saturation strategy is none
+pnml2lts-sym, 0.000: Guided search strategy is unguided
+pnml2lts-sym, 0.000: Attractor strategy is default
+pnml2lts-sym, 0.003: opening pnml/PolyORB-LF-S02-J04-T08-unfolded.pnml
+pnml2lts-sym, 0.071: Petri net has 614 places, 1242 transitions and 5732 arcs
+pnml2lts-sym, 0.071: There are 0 safe places
+pnml2lts-sym, 0.096: Petri net pnml/PolyORB-LF-S02-J04-T08-unfolded.pnml analyzed
+pnml2lts-sym, 0.123: Loading Petri net took 0.120 real 0.110 user 0.000 sys
+pnml2lts-sym, 0.123: Initializing regrouping layer
+pnml2lts-sym, 0.123: Regroup specification: f
+pnml2lts-sym, 0.123: Regroup FORCE
+pnml2lts-sym, 0.727: Regrouping: 1242->1242 groups
+pnml2lts-sym, 0.770: Regrouping took 0.650 real 0.650 user 0.000 sys
+pnml2lts-sym, 0.770: state vector length is 614; there are 1242 groups
+pnml2lts-sym, 0.771: Creating a Sylvan domain.
+pnml2lts-sym, 0.771: Sylvan allocates 10.500 GB virtual memory for nodes table and operation cache.
+pnml2lts-sym, 0.771: Initial nodes table and operation cache requires 672.00 MB.
+pnml2lts-sym, 1.482: Using GBgetTransitionsShortR2W as next-state function
+pnml2lts-sym, 8.497: got initial state
+pnml2lts-sym, 8.499: level 0 is finished
+pnml2lts-sym, 10.909: level 1 is finished
+pnml2lts-sym, 14.524: level 2 is finished
+pnml2lts-sym, 18.288: level 3 is finished
+pnml2lts-sym, 22.224: level 4 is finished
+pnml2lts-sym, 23.931: level 5 is finished
+pnml2lts-sym, 25.888: level 6 is finished
+pnml2lts-sym, 35.172: level 7 is finished
+pnml2lts-sym, 50.000: level 8 is finished
+pnml2lts-sym, 68.359: level 9 is finished
+pnml2lts-sym, 94.928: level 10 is finished
+pnml2lts-sym, 121.028: level 11 is finished
+pnml2lts-sym, 147.283: level 12 is finished
+pnml2lts-sym, 172.464: level 13 is finished
+pnml2lts-sym, 198.613: level 14 is finished
+pnml2lts-sym, 232.198: level 15 is finished
+pnml2lts-sym, 272.321: level 16 is finished
+pnml2lts-sym, 311.645: level 17 is finished
+pnml2lts-sym, 351.155: level 18 is finished
+pnml2lts-sym, 381.960: level 19 is finished
+pnml2lts-sym, 411.903: level 20 is finished
+pnml2lts-sym, 433.686: level 21 is finished
+pnml2lts-sym, 456.072: vset_sylvan: starting garbage collection
+pnml2lts-sym, 456.183: vset_sylvan: garbage collection done
+pnml2lts-sym, 456.242: level 22 is finished
+pnml2lts-sym, 493.173: level 23 is finished

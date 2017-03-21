@@ -1,0 +1,169 @@
+pnml2lts-sym, 0.000: Exploration order is bfs-prev
+pnml2lts-sym, 0.000: Saturation strategy is none
+pnml2lts-sym, 0.000: Guided search strategy is unguided
+pnml2lts-sym, 0.000: Attractor strategy is default
+pnml2lts-sym, 0.000: opening pnml/erk-010000.pnml
+pnml2lts-sym, 0.003: Petri net has 11 places, 11 transitions and 34 arcs
+pnml2lts-sym, 0.004: There are 0 safe places
+pnml2lts-sym, 0.004: Petri net pnml/erk-010000.pnml analyzed
+pnml2lts-sym, 0.004: Loading Petri net took 0.000 real 0.000 user 0.000 sys
+pnml2lts-sym, 0.004: Initializing regrouping layer
+pnml2lts-sym, 0.004: Regroup specification: f
+pnml2lts-sym, 0.004: Regroup FORCE
+pnml2lts-sym, 0.005: Regrouping: 11->11 groups
+pnml2lts-sym, 0.005: Regrouping took 0.000 real 0.000 user 0.000 sys
+pnml2lts-sym, 0.005: state vector length is 11; there are 11 groups
+pnml2lts-sym, 0.005: Creating a multi-core ListDD domain.
+pnml2lts-sym, 0.005: Sylvan allocates 10.500 GB virtual memory for nodes table and operation cache.
+pnml2lts-sym, 0.005: Initial nodes table and operation cache requires 672.00 MB.
+pnml2lts-sym, 0.055: Using GBgetTransitionsShortR2W as next-state function
+pnml2lts-sym, 0.098: got initial state
+pnml2lts-sym, 0.098: level 0 is finished
+pnml2lts-sym, 0.151: level 1 is finished
+pnml2lts-sym, 0.179: level 2 is finished
+pnml2lts-sym, 0.190: level 3 is finished
+pnml2lts-sym, 0.190: level 4 is finished
+pnml2lts-sym, 0.190: level 5 is finished
+pnml2lts-sym, 0.191: level 6 is finished
+pnml2lts-sym, 0.192: level 7 is finished
+pnml2lts-sym, 0.192: level 8 is finished
+pnml2lts-sym, 0.193: level 9 is finished
+pnml2lts-sym, 0.195: level 10 is finished
+pnml2lts-sym, 0.196: level 11 is finished
+pnml2lts-sym, 0.199: level 12 is finished
+pnml2lts-sym, 0.201: level 13 is finished
+pnml2lts-sym, 0.204: level 14 is finished
+pnml2lts-sym, 0.208: level 15 is finished
+pnml2lts-sym, 0.212: level 16 is finished
+pnml2lts-sym, 0.217: level 17 is finished
+pnml2lts-sym, 0.224: level 18 is finished
+pnml2lts-sym, 0.231: level 19 is finished
+pnml2lts-sym, 0.238: level 20 is finished
+pnml2lts-sym, 0.247: level 21 is finished
+pnml2lts-sym, 0.259: level 22 is finished
+pnml2lts-sym, 0.272: level 23 is finished
+pnml2lts-sym, 0.286: level 24 is finished
+pnml2lts-sym, 0.302: level 25 is finished
+pnml2lts-sym, 0.320: level 26 is finished
+pnml2lts-sym, 0.342: level 27 is finished
+pnml2lts-sym, 0.365: level 28 is finished
+pnml2lts-sym, 0.392: level 29 is finished
+pnml2lts-sym, 0.422: level 30 is finished
+pnml2lts-sym, 0.455: level 31 is finished
+pnml2lts-sym, 0.491: level 32 is finished
+pnml2lts-sym, 0.531: level 33 is finished
+pnml2lts-sym, 0.575: level 34 is finished
+pnml2lts-sym, 0.624: level 35 is finished
+pnml2lts-sym, 0.677: level 36 is finished
+pnml2lts-sym, 0.735: level 37 is finished
+pnml2lts-sym, 0.799: level 38 is finished
+pnml2lts-sym, 0.868: level 39 is finished
+pnml2lts-sym, 0.943: level 40 is finished
+pnml2lts-sym, 1.025: level 41 is finished
+pnml2lts-sym, 1.114: level 42 is finished
+pnml2lts-sym, 1.211: level 43 is finished
+pnml2lts-sym, 1.316: level 44 is finished
+pnml2lts-sym, 1.429: level 45 is finished
+pnml2lts-sym, 1.551: level 46 is finished
+pnml2lts-sym, 1.682: level 47 is finished
+pnml2lts-sym, 1.823: level 48 is finished
+pnml2lts-sym, 1.976: level 49 is finished
+pnml2lts-sym, 2.140: level 50 is finished
+pnml2lts-sym, 2.316: level 51 is finished
+pnml2lts-sym, 2.504: level 52 is finished
+pnml2lts-sym, 2.704: level 53 is finished
+pnml2lts-sym, 2.919: level 54 is finished
+pnml2lts-sym, 3.151: level 55 is finished
+pnml2lts-sym, 3.399: level 56 is finished
+pnml2lts-sym, 3.662: level 57 is finished
+pnml2lts-sym, 3.947: level 58 is finished
+pnml2lts-sym, 4.248: level 59 is finished
+pnml2lts-sym, 4.566: level 60 is finished
+pnml2lts-sym, 4.909: level 61 is finished
+pnml2lts-sym, 5.272: level 62 is finished
+pnml2lts-sym, 5.659: level 63 is finished
+pnml2lts-sym, 6.068: level 64 is finished
+pnml2lts-sym, 6.504: level 65 is finished
+pnml2lts-sym, 6.968: level 66 is finished
+pnml2lts-sym, 7.465: level 67 is finished
+pnml2lts-sym, 7.991: level 68 is finished
+pnml2lts-sym, 8.549: level 69 is finished
+pnml2lts-sym, 9.141: level 70 is finished
+pnml2lts-sym, 9.770: level 71 is finished
+pnml2lts-sym, 10.439: level 72 is finished
+pnml2lts-sym, 11.154: level 73 is finished
+pnml2lts-sym, 11.915: level 74 is finished
+pnml2lts-sym, 12.717: level 75 is finished
+pnml2lts-sym, 13.568: level 76 is finished
+pnml2lts-sym, 14.473: level 77 is finished
+pnml2lts-sym, 15.431: level 78 is finished
+pnml2lts-sym, 16.458: level 79 is finished
+pnml2lts-sym, 17.542: level 80 is finished
+pnml2lts-sym, 18.694: level 81 is finished
+pnml2lts-sym, 19.911: level 82 is finished
+pnml2lts-sym, 21.204: level 83 is finished
+pnml2lts-sym, 22.570: level 84 is finished
+pnml2lts-sym, 24.035: level 85 is finished
+pnml2lts-sym, 25.590: level 86 is finished
+pnml2lts-sym, 27.233: level 87 is finished
+pnml2lts-sym, 28.977: level 88 is finished
+pnml2lts-sym, 30.833: level 89 is finished
+pnml2lts-sym, 32.802: level 90 is finished
+pnml2lts-sym, 34.905: level 91 is finished
+pnml2lts-sym, 37.131: level 92 is finished
+pnml2lts-sym, 39.509: level 93 is finished
+pnml2lts-sym, 42.028: level 94 is finished
+pnml2lts-sym, 44.700: level 95 is finished
+pnml2lts-sym, 47.546: level 96 is finished
+pnml2lts-sym, 50.588: level 97 is finished
+pnml2lts-sym, 53.833: level 98 is finished
+pnml2lts-sym, 57.281: level 99 is finished
+pnml2lts-sym, 60.945: level 100 is finished
+pnml2lts-sym, 64.853: level 101 is finished
+pnml2lts-sym, 69.024: level 102 is finished
+pnml2lts-sym, 73.482: level 103 is finished
+pnml2lts-sym, 78.250: level 104 is finished
+pnml2lts-sym, 83.338: level 105 is finished
+pnml2lts-sym, 88.770: level 106 is finished
+pnml2lts-sym, 94.582: level 107 is finished
+pnml2lts-sym, 100.794: level 108 is finished
+pnml2lts-sym, 107.496: level 109 is finished
+pnml2lts-sym, 114.753: level 110 is finished
+pnml2lts-sym, 122.558: level 111 is finished
+pnml2lts-sym, 124.379: vset_sylvan: starting garbage collection
+pnml2lts-sym, 125.214: vset_sylvan: garbage collection done
+pnml2lts-sym, 134.447: level 112 is finished
+pnml2lts-sym, 141.356: level 113 is finished
+pnml2lts-sym, 146.810: level 114 is finished
+pnml2lts-sym, 152.612: level 115 is finished
+pnml2lts-sym, 158.869: level 116 is finished
+pnml2lts-sym, 165.573: level 117 is finished
+pnml2lts-sym, 172.719: level 118 is finished
+pnml2lts-sym, 180.292: level 119 is finished
+pnml2lts-sym, 188.299: level 120 is finished
+pnml2lts-sym, 196.775: level 121 is finished
+pnml2lts-sym, 205.729: level 122 is finished
+pnml2lts-sym, 215.149: level 123 is finished
+pnml2lts-sym, 225.082: level 124 is finished
+pnml2lts-sym, 235.555: level 125 is finished
+pnml2lts-sym, 246.617: level 126 is finished
+pnml2lts-sym, 258.341: level 127 is finished
+pnml2lts-sym, 270.732: level 128 is finished
+pnml2lts-sym, 283.813: level 129 is finished
+pnml2lts-sym, 297.614: level 130 is finished
+pnml2lts-sym, 312.269: level 131 is finished
+pnml2lts-sym, 327.735: level 132 is finished
+pnml2lts-sym, 344.148: level 133 is finished
+pnml2lts-sym, 361.517: level 134 is finished
+pnml2lts-sym, 379.875: level 135 is finished
+pnml2lts-sym, 399.268: level 136 is finished
+pnml2lts-sym, 419.763: level 137 is finished
+pnml2lts-sym, 441.407: level 138 is finished
+pnml2lts-sym, 464.329: level 139 is finished
+pnml2lts-sym, 488.598: level 140 is finished
+pnml2lts-sym, 514.221: level 141 is finished
+pnml2lts-sym, 541.267: level 142 is finished
+pnml2lts-sym, 555.849: vset_sylvan: starting garbage collection
+pnml2lts-sym, 558.138: vset_sylvan: garbage collection done
+pnml2lts-sym, 575.005: level 143 is finished
+pnml2lts-sym, 599.797: level 144 is finished

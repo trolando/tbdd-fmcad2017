@@ -1,0 +1,87 @@
+dve2lts-sym, 0.000: Exploration order is bfs-prev
+dve2lts-sym, 0.000: Saturation strategy is none
+dve2lts-sym, 0.000: Guided search strategy is unguided
+dve2lts-sym, 0.000: Attractor strategy is default
+dve2lts-sym, 0.000: Precompiled divine module initialized
+dve2lts-sym, 0.000: opening dve/msmie.4.dve2C
+dve2lts-sym, 0.016: Initializing regrouping layer
+dve2lts-sym, 0.016: Regroup specification: f
+dve2lts-sym, 0.016: Regroup FORCE
+dve2lts-sym, 0.018: Regrouping: 450->450 groups
+dve2lts-sym, 0.019: Regrouping took 0.000 real 0.000 user 0.000 sys
+dve2lts-sym, 0.019: state vector length is 28; there are 450 groups
+dve2lts-sym, 0.019: Creating a multi-core ListDD domain.
+dve2lts-sym, 0.019: Sylvan allocates 10.500 GB virtual memory for nodes table and operation cache.
+dve2lts-sym, 0.019: Initial nodes table and operation cache requires 672.00 MB.
+dve2lts-sym, 0.674: Using GBgetTransitionsShortR2W as next-state function
+dve2lts-sym, 0.738: got initial state
+dve2lts-sym, 0.739: level 0 is finished
+dve2lts-sym, 0.877: level 1 is finished
+dve2lts-sym, 0.900: level 2 is finished
+dve2lts-sym, 0.917: level 3 is finished
+dve2lts-sym, 0.946: level 4 is finished
+dve2lts-sym, 0.964: level 5 is finished
+dve2lts-sym, 0.974: level 6 is finished
+dve2lts-sym, 0.993: level 7 is finished
+dve2lts-sym, 1.014: level 8 is finished
+dve2lts-sym, 1.038: level 9 is finished
+dve2lts-sym, 1.064: level 10 is finished
+dve2lts-sym, 1.089: level 11 is finished
+dve2lts-sym, 1.122: level 12 is finished
+dve2lts-sym, 1.154: level 13 is finished
+dve2lts-sym, 1.186: level 14 is finished
+dve2lts-sym, 1.219: level 15 is finished
+dve2lts-sym, 1.314: level 16 is finished
+dve2lts-sym, 1.354: level 17 is finished
+dve2lts-sym, 1.396: level 18 is finished
+dve2lts-sym, 1.436: level 19 is finished
+dve2lts-sym, 1.473: level 20 is finished
+dve2lts-sym, 1.515: level 21 is finished
+dve2lts-sym, 1.555: level 22 is finished
+dve2lts-sym, 1.598: level 23 is finished
+dve2lts-sym, 1.641: level 24 is finished
+dve2lts-sym, 1.680: level 25 is finished
+dve2lts-sym, 1.722: level 26 is finished
+dve2lts-sym, 1.769: level 27 is finished
+dve2lts-sym, 1.811: level 28 is finished
+dve2lts-sym, 1.851: level 29 is finished
+dve2lts-sym, 1.894: level 30 is finished
+dve2lts-sym, 1.945: level 31 is finished
+dve2lts-sym, 1.988: level 32 is finished
+dve2lts-sym, 2.031: level 33 is finished
+dve2lts-sym, 2.073: level 34 is finished
+dve2lts-sym, 2.115: level 35 is finished
+dve2lts-sym, 2.158: level 36 is finished
+dve2lts-sym, 2.199: level 37 is finished
+dve2lts-sym, 2.241: level 38 is finished
+dve2lts-sym, 2.284: level 39 is finished
+dve2lts-sym, 2.326: level 40 is finished
+dve2lts-sym, 2.365: level 41 is finished
+dve2lts-sym, 2.404: level 42 is finished
+dve2lts-sym, 2.440: level 43 is finished
+dve2lts-sym, 2.476: level 44 is finished
+dve2lts-sym, 2.513: level 45 is finished
+dve2lts-sym, 2.546: level 46 is finished
+dve2lts-sym, 2.579: level 47 is finished
+dve2lts-sym, 2.615: level 48 is finished
+dve2lts-sym, 2.647: level 49 is finished
+dve2lts-sym, 2.680: level 50 is finished
+dve2lts-sym, 2.713: level 51 is finished
+dve2lts-sym, 2.742: level 52 is finished
+dve2lts-sym, 2.775: level 53 is finished
+dve2lts-sym, 2.805: level 54 is finished
+dve2lts-sym, 2.833: level 55 is finished
+dve2lts-sym, 2.863: level 56 is finished
+dve2lts-sym, 2.890: level 57 is finished
+dve2lts-sym, 2.918: level 58 is finished
+dve2lts-sym, 2.946: level 59 is finished
+dve2lts-sym, 2.970: level 60 is finished
+dve2lts-sym, 2.998: level 61 is finished
+dve2lts-sym, 3.022: level 62 is finished
+dve2lts-sym, 3.051: Exploration took 28350 group checks and 28350 next state calls
+dve2lts-sym, 3.051: reachability took 2.310 real 110.450 user 0.300 sys
+dve2lts-sym, 3.051: counting visited states...
+dve2lts-sym, 3.051: counting took 0.000 real 0.020 user 0.000 sys
+dve2lts-sym, 3.051: state space has 7125441 states, 1119 nodes
+dve2lts-sym, 3.053: group_next: 3288 nodes total
+dve2lts-sym, 3.053: group_explored: 12580 nodes, 45470 short vectors total

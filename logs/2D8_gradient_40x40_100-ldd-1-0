@@ -1,0 +1,32 @@
+pnml2lts-sym, 0.000: Exploration order is bfs-prev
+pnml2lts-sym, 0.000: Saturation strategy is none
+pnml2lts-sym, 0.000: Guided search strategy is unguided
+pnml2lts-sym, 0.000: Attractor strategy is default
+pnml2lts-sym, 0.000: opening pnml/2D8_gradient_40x40_100.pnml
+pnml2lts-sym, 0.253: Petri net has 1600 places, 12324 transitions and 24648 arcs
+pnml2lts-sym, 0.253: There are 0 safe places
+pnml2lts-sym, 0.561: Petri net pnml/2D8_gradient_40x40_100.pnml analyzed
+pnml2lts-sym, 0.675: Loading Petri net took 0.680 real 0.610 user 0.070 sys
+pnml2lts-sym, 0.675: Initializing regrouping layer
+pnml2lts-sym, 0.684: Regroup specification: f
+pnml2lts-sym, 0.684: Regroup FORCE
+pnml2lts-sym, 479.696: Regrouping: 12324->12324 groups
+pnml2lts-sym, 480.795: Regrouping took 480.120 real 479.970 user 0.020 sys
+pnml2lts-sym, 480.795: state vector length is 1600; there are 12324 groups
+pnml2lts-sym, 480.795: Creating a multi-core ListDD domain.
+pnml2lts-sym, 480.795: Sylvan allocates 10.500 GB virtual memory for nodes table and operation cache.
+pnml2lts-sym, 480.795: Initial nodes table and operation cache requires 672.00 MB.
+pnml2lts-sym, 480.843: Using GBgetTransitionsShortR2W as next-state function
+pnml2lts-sym, 489.129: got initial state
+pnml2lts-sym, 489.142: level 0 is finished
+pnml2lts-sym, 490.495: level 1 is finished
+pnml2lts-sym, 491.656: level 2 is finished
+pnml2lts-sym, 492.416: level 3 is finished
+pnml2lts-sym, 493.787: level 4 is finished
+pnml2lts-sym, 496.437: level 5 is finished
+pnml2lts-sym, 500.471: level 6 is finished
+pnml2lts-sym, 507.193: level 7 is finished
+pnml2lts-sym, 517.885: level 8 is finished
+pnml2lts-sym, 534.669: level 9 is finished
+pnml2lts-sym, 559.802: level 10 is finished
+pnml2lts-sym, 595.420: level 11 is finished

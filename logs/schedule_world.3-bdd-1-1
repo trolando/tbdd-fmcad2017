@@ -1,0 +1,50 @@
+dve2lts-sym, 0.000: Exploration order is bfs-prev
+dve2lts-sym, 0.000: Saturation strategy is none
+dve2lts-sym, 0.000: Guided search strategy is unguided
+dve2lts-sym, 0.000: Attractor strategy is default
+dve2lts-sym, 0.000: Precompiled divine module initialized
+dve2lts-sym, 0.000: opening dve/schedule_world.3.dve2C
+dve2lts-sym, 0.003: Initializing regrouping layer
+dve2lts-sym, 0.003: Regroup specification: f
+dve2lts-sym, 0.003: Regroup FORCE
+dve2lts-sym, 0.003: Regrouping: 50->50 groups
+dve2lts-sym, 0.004: Regrouping took 0.000 real 0.000 user 0.000 sys
+dve2lts-sym, 0.004: state vector length is 34; there are 50 groups
+dve2lts-sym, 0.004: Creating a Sylvan domain.
+dve2lts-sym, 0.004: Sylvan allocates 10.500 GB virtual memory for nodes table and operation cache.
+dve2lts-sym, 0.004: Initial nodes table and operation cache requires 672.00 MB.
+dve2lts-sym, 0.107: Using GBgetTransitionsShortR2W as next-state function
+dve2lts-sym, 0.195: got initial state
+dve2lts-sym, 0.195: level 0 is finished
+dve2lts-sym, 0.214: level 1 is finished
+dve2lts-sym, 0.345: level 2 is finished
+dve2lts-sym, 0.862: level 3 is finished
+dve2lts-sym, 2.371: level 4 is finished
+dve2lts-sym, 6.857: level 5 is finished
+dve2lts-sym, 17.191: vset_sylvan: starting garbage collection
+dve2lts-sym, 18.097: vset_sylvan: garbage collection done
+dve2lts-sym, 22.797: level 6 is finished
+dve2lts-sym, 51.275: vset_sylvan: starting garbage collection
+dve2lts-sym, 53.464: vset_sylvan: garbage collection done
+dve2lts-sym, 61.619: level 7 is finished
+dve2lts-sym, 118.603: vset_sylvan: starting garbage collection
+dve2lts-sym, 122.966: vset_sylvan: garbage collection done
+dve2lts-sym, 136.625: level 8 is finished
+dve2lts-sym, 253.525: level 9 is finished
+dve2lts-sym, 259.592: vset_sylvan: starting garbage collection
+dve2lts-sym, 263.772: vset_sylvan: garbage collection done
+dve2lts-sym, 433.132: level 10 is finished
+dve2lts-sym, 575.008: vset_sylvan: starting garbage collection
+dve2lts-sym, 586.019: vset_sylvan: garbage collection done
+dve2lts-sym, 668.638: level 11 is finished
+dve2lts-sym, 845.778: vset_sylvan: starting garbage collection
+dve2lts-sym, 857.617: vset_sylvan: garbage collection done
+dve2lts-sym, 988.832: level 12 is finished
+dve2lts-sym, 1090.373: vset_sylvan: starting garbage collection
+dve2lts-sym, 1099.911: vset_sylvan: garbage collection done
+dve2lts-sym, 1320.122: level 13 is finished
+dve2lts-sym, 1346.646: vset_sylvan: starting garbage collection
+dve2lts-sym, 1352.904: vset_sylvan: garbage collection done
+dve2lts-sym, 1605.095: level 14 is finished
+dve2lts-sym, 1635.740: vset_sylvan: starting garbage collection
+dve2lts-sym, 1641.035: vset_sylvan: garbage collection done

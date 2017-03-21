@@ -1,0 +1,39 @@
+dve2lts-sym, 0.000: Exploration order is bfs-prev
+dve2lts-sym, 0.000: Saturation strategy is none
+dve2lts-sym, 0.000: Guided search strategy is unguided
+dve2lts-sym, 0.000: Attractor strategy is default
+dve2lts-sym, 0.000: Precompiled divine module initialized
+dve2lts-sym, 0.000: opening dve/peg_solitaire.1.dve2C
+dve2lts-sym, 0.004: Initializing regrouping layer
+dve2lts-sym, 0.004: Regroup specification: f
+dve2lts-sym, 0.004: Regroup FORCE
+dve2lts-sym, 0.004: Regrouping: 48->48 groups
+dve2lts-sym, 0.004: Regrouping took 0.000 real 0.000 user 0.000 sys
+dve2lts-sym, 0.004: state vector length is 18; there are 48 groups
+dve2lts-sym, 0.004: Creating a Sylvan domain.
+dve2lts-sym, 0.004: Sylvan allocates 10.500 GB virtual memory for nodes table and operation cache.
+dve2lts-sym, 0.004: Initial nodes table and operation cache requires 672.00 MB.
+dve2lts-sym, 0.116: Using GBgetTransitionsShortR2W as next-state function
+dve2lts-sym, 0.201: got initial state
+dve2lts-sym, 0.201: level 0 is finished
+dve2lts-sym, 0.203: level 1 is finished
+dve2lts-sym, 0.208: level 2 is finished
+dve2lts-sym, 0.226: level 3 is finished
+dve2lts-sym, 0.313: level 4 is finished
+dve2lts-sym, 0.684: level 5 is finished
+dve2lts-sym, 1.833: level 6 is finished
+dve2lts-sym, 4.520: level 7 is finished
+dve2lts-sym, 9.023: level 8 is finished
+dve2lts-sym, 14.093: level 9 is finished
+dve2lts-sym, 17.892: level 10 is finished
+dve2lts-sym, 19.855: level 11 is finished
+dve2lts-sym, 20.610: level 12 is finished
+dve2lts-sym, 20.834: level 13 is finished
+dve2lts-sym, 20.886: level 14 is finished
+dve2lts-sym, 20.895: Exploration took 720 group checks and 720 next state calls
+dve2lts-sym, 20.895: reachability took 20.690 real 20.680 user 0.010 sys
+dve2lts-sym, 20.895: counting visited states...
+dve2lts-sym, 20.898: counting took 0.000 real 0.010 user 0.000 sys
+dve2lts-sym, 20.898: state space has 32181 states, 5636 nodes
+dve2lts-sym, 20.954: group_next: 100028 nodes total
+dve2lts-sym, 20.954: group_explored: 270528 nodes, 1544688 short vectors total

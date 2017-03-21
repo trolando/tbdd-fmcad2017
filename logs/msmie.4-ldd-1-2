@@ -1,0 +1,87 @@
+dve2lts-sym, 0.000: Exploration order is bfs-prev
+dve2lts-sym, 0.000: Saturation strategy is none
+dve2lts-sym, 0.000: Guided search strategy is unguided
+dve2lts-sym, 0.000: Attractor strategy is default
+dve2lts-sym, 0.000: Precompiled divine module initialized
+dve2lts-sym, 0.000: opening dve/msmie.4.dve2C
+dve2lts-sym, 0.016: Initializing regrouping layer
+dve2lts-sym, 0.016: Regroup specification: f
+dve2lts-sym, 0.016: Regroup FORCE
+dve2lts-sym, 0.017: Regrouping: 450->450 groups
+dve2lts-sym, 0.018: Regrouping took 0.010 real 0.010 user 0.000 sys
+dve2lts-sym, 0.019: state vector length is 28; there are 450 groups
+dve2lts-sym, 0.019: Creating a multi-core ListDD domain.
+dve2lts-sym, 0.019: Sylvan allocates 10.500 GB virtual memory for nodes table and operation cache.
+dve2lts-sym, 0.019: Initial nodes table and operation cache requires 672.00 MB.
+dve2lts-sym, 0.065: Using GBgetTransitionsShortR2W as next-state function
+dve2lts-sym, 0.127: got initial state
+dve2lts-sym, 0.128: level 0 is finished
+dve2lts-sym, 0.209: level 1 is finished
+dve2lts-sym, 0.212: level 2 is finished
+dve2lts-sym, 0.214: level 3 is finished
+dve2lts-sym, 0.217: level 4 is finished
+dve2lts-sym, 0.220: level 5 is finished
+dve2lts-sym, 0.222: level 6 is finished
+dve2lts-sym, 0.225: level 7 is finished
+dve2lts-sym, 0.230: level 8 is finished
+dve2lts-sym, 0.236: level 9 is finished
+dve2lts-sym, 0.243: level 10 is finished
+dve2lts-sym, 0.252: level 11 is finished
+dve2lts-sym, 0.264: level 12 is finished
+dve2lts-sym, 0.275: level 13 is finished
+dve2lts-sym, 0.291: level 14 is finished
+dve2lts-sym, 0.303: level 15 is finished
+dve2lts-sym, 0.326: level 16 is finished
+dve2lts-sym, 0.350: level 17 is finished
+dve2lts-sym, 0.373: level 18 is finished
+dve2lts-sym, 0.406: level 19 is finished
+dve2lts-sym, 0.433: level 20 is finished
+dve2lts-sym, 0.463: level 21 is finished
+dve2lts-sym, 0.499: level 22 is finished
+dve2lts-sym, 0.530: level 23 is finished
+dve2lts-sym, 0.562: level 24 is finished
+dve2lts-sym, 0.595: level 25 is finished
+dve2lts-sym, 0.628: level 26 is finished
+dve2lts-sym, 0.661: level 27 is finished
+dve2lts-sym, 0.698: level 28 is finished
+dve2lts-sym, 0.733: level 29 is finished
+dve2lts-sym, 0.769: level 30 is finished
+dve2lts-sym, 0.816: level 31 is finished
+dve2lts-sym, 0.856: level 32 is finished
+dve2lts-sym, 0.899: level 33 is finished
+dve2lts-sym, 0.943: level 34 is finished
+dve2lts-sym, 0.985: level 35 is finished
+dve2lts-sym, 1.030: level 36 is finished
+dve2lts-sym, 1.072: level 37 is finished
+dve2lts-sym, 1.113: level 38 is finished
+dve2lts-sym, 1.156: level 39 is finished
+dve2lts-sym, 1.197: level 40 is finished
+dve2lts-sym, 1.234: level 41 is finished
+dve2lts-sym, 1.270: level 42 is finished
+dve2lts-sym, 1.303: level 43 is finished
+dve2lts-sym, 1.334: level 44 is finished
+dve2lts-sym, 1.368: level 45 is finished
+dve2lts-sym, 1.394: level 46 is finished
+dve2lts-sym, 1.420: level 47 is finished
+dve2lts-sym, 1.450: level 48 is finished
+dve2lts-sym, 1.474: level 49 is finished
+dve2lts-sym, 1.497: level 50 is finished
+dve2lts-sym, 1.523: level 51 is finished
+dve2lts-sym, 1.545: level 52 is finished
+dve2lts-sym, 1.567: level 53 is finished
+dve2lts-sym, 1.591: level 54 is finished
+dve2lts-sym, 1.608: level 55 is finished
+dve2lts-sym, 1.627: level 56 is finished
+dve2lts-sym, 1.647: level 57 is finished
+dve2lts-sym, 1.660: level 58 is finished
+dve2lts-sym, 1.678: level 59 is finished
+dve2lts-sym, 1.689: level 60 is finished
+dve2lts-sym, 1.695: level 61 is finished
+dve2lts-sym, 1.706: level 62 is finished
+dve2lts-sym, 1.712: Exploration took 28350 group checks and 28350 next state calls
+dve2lts-sym, 1.712: reachability took 1.590 real 1.500 user 0.080 sys
+dve2lts-sym, 1.712: counting visited states...
+dve2lts-sym, 1.712: counting took 0.000 real 0.000 user 0.000 sys
+dve2lts-sym, 1.712: state space has 7125441 states, 1119 nodes
+dve2lts-sym, 1.713: group_next: 3288 nodes total
+dve2lts-sym, 1.713: group_explored: 12580 nodes, 45470 short vectors total

@@ -1,0 +1,27 @@
+pnml2lts-sym, 0.000: Exploration order is bfs-prev
+pnml2lts-sym, 0.000: Saturation strategy is none
+pnml2lts-sym, 0.000: Guided search strategy is unguided
+pnml2lts-sym, 0.000: Attractor strategy is default
+pnml2lts-sym, 0.000: opening pnml/rwmutex-r2000w10.pnml
+pnml2lts-sym, 0.308: Petri net has 6020 places, 4020 transitions and 52040 arcs
+pnml2lts-sym, 0.308: There are 0 safe places
+pnml2lts-sym, 0.650: Petri net pnml/rwmutex-r2000w10.pnml analyzed
+pnml2lts-sym, 0.807: Loading Petri net took 0.800 real 0.760 user 0.040 sys
+pnml2lts-sym, 0.807: Initializing regrouping layer
+pnml2lts-sym, 0.819: Regroup specification: f
+pnml2lts-sym, 0.819: Regroup FORCE
+pnml2lts-sym, 5.910: Regrouping: 4020->4020 groups
+pnml2lts-sym, 7.276: Regrouping took 6.470 real 6.430 user 0.030 sys
+pnml2lts-sym, 7.276: state vector length is 6020; there are 4020 groups
+pnml2lts-sym, 7.277: Creating a Sylvan domain.
+pnml2lts-sym, 7.277: Sylvan allocates 10.500 GB virtual memory for nodes table and operation cache.
+pnml2lts-sym, 7.277: Initial nodes table and operation cache requires 672.00 MB.
+pnml2lts-sym, 7.554: Using GBgetTransitionsShortR2W as next-state function
+pnml2lts-sym, 27.190: vset_sylvan: starting garbage collection
+pnml2lts-sym, 27.460: vset_sylvan: garbage collection done
+pnml2lts-sym, 49.429: vset_sylvan: starting garbage collection
+pnml2lts-sym, 49.810: vset_sylvan: garbage collection done
+pnml2lts-sym, 91.434: vset_sylvan: starting garbage collection
+pnml2lts-sym, 92.102: vset_sylvan: garbage collection done
+pnml2lts-sym, 185.940: vset_sylvan: starting garbage collection
+pnml2lts-sym, 187.251: vset_sylvan: garbage collection done

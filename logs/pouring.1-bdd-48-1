@@ -1,0 +1,37 @@
+dve2lts-sym, 0.000: Exploration order is bfs-prev
+dve2lts-sym, 0.000: Saturation strategy is none
+dve2lts-sym, 0.000: Guided search strategy is unguided
+dve2lts-sym, 0.000: Attractor strategy is default
+dve2lts-sym, 0.000: Precompiled divine module initialized
+dve2lts-sym, 0.000: opening dve/pouring.1.dve2C
+dve2lts-sym, 0.045: Initializing regrouping layer
+dve2lts-sym, 0.046: Regroup specification: f
+dve2lts-sym, 0.046: Regroup FORCE
+dve2lts-sym, 0.047: Regrouping: 2018->2018 groups
+dve2lts-sym, 0.048: Regrouping took 0.000 real 0.010 user 0.000 sys
+dve2lts-sym, 0.048: state vector length is 4; there are 2018 groups
+dve2lts-sym, 0.048: Creating a Sylvan domain.
+dve2lts-sym, 0.048: Sylvan allocates 10.500 GB virtual memory for nodes table and operation cache.
+dve2lts-sym, 0.048: Initial nodes table and operation cache requires 672.00 MB.
+dve2lts-sym, 0.772: Using GBgetTransitionsShortR2W as next-state function
+dve2lts-sym, 0.924: got initial state
+dve2lts-sym, 0.929: level 0 is finished
+dve2lts-sym, 1.010: level 1 is finished
+dve2lts-sym, 1.161: level 2 is finished
+dve2lts-sym, 1.365: level 3 is finished
+dve2lts-sym, 1.541: level 4 is finished
+dve2lts-sym, 1.765: level 5 is finished
+dve2lts-sym, 2.033: level 6 is finished
+dve2lts-sym, 2.358: level 7 is finished
+dve2lts-sym, 2.723: level 8 is finished
+dve2lts-sym, 3.131: level 9 is finished
+dve2lts-sym, 3.559: level 10 is finished
+dve2lts-sym, 3.953: level 11 is finished
+dve2lts-sym, 4.232: level 12 is finished
+dve2lts-sym, 4.377: Exploration took 26234 group checks and 26234 next state calls
+dve2lts-sym, 4.377: reachability took 3.450 real 165.470 user 0.120 sys
+dve2lts-sym, 4.377: counting visited states...
+dve2lts-sym, 4.378: counting took 0.000 real 0.010 user 0.000 sys
+dve2lts-sym, 4.378: state space has 503 states, 1037 nodes
+dve2lts-sym, 4.509: group_next: 105344 nodes total
+dve2lts-sym, 4.509: group_explored: 412312 nodes, 367994 short vectors total

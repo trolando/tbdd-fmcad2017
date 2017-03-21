@@ -1,0 +1,43 @@
+dve2lts-sym, 0.000: Exploration order is bfs-prev
+dve2lts-sym, 0.000: Saturation strategy is none
+dve2lts-sym, 0.000: Guided search strategy is unguided
+dve2lts-sym, 0.000: Attractor strategy is default
+dve2lts-sym, 0.000: Precompiled divine module initialized
+dve2lts-sym, 0.000: opening dve/blocks.2.dve2C
+dve2lts-sym, 0.002: Initializing regrouping layer
+dve2lts-sym, 0.002: Regroup specification: f
+dve2lts-sym, 0.002: Regroup FORCE
+dve2lts-sym, 0.002: Regrouping: 20->20 groups
+dve2lts-sym, 0.002: Regrouping took 0.000 real 0.000 user 0.000 sys
+dve2lts-sym, 0.002: state vector length is 14; there are 20 groups
+dve2lts-sym, 0.003: Creating a Sylvan domain.
+dve2lts-sym, 0.003: Sylvan allocates 10.500 GB virtual memory for nodes table and operation cache.
+dve2lts-sym, 0.003: Initial nodes table and operation cache requires 672.00 MB.
+dve2lts-sym, 0.707: Using GBgetTransitionsShortR2W as next-state function
+dve2lts-sym, 0.849: got initial state
+dve2lts-sym, 0.849: level 0 is finished
+dve2lts-sym, 0.854: level 1 is finished
+dve2lts-sym, 0.872: level 2 is finished
+dve2lts-sym, 0.888: level 3 is finished
+dve2lts-sym, 0.920: level 4 is finished
+dve2lts-sym, 0.943: level 5 is finished
+dve2lts-sym, 1.024: level 6 is finished
+dve2lts-sym, 1.056: level 7 is finished
+dve2lts-sym, 1.124: level 8 is finished
+dve2lts-sym, 1.167: level 9 is finished
+dve2lts-sym, 1.448: level 10 is finished
+dve2lts-sym, 1.510: level 11 is finished
+dve2lts-sym, 1.684: level 12 is finished
+dve2lts-sym, 1.768: level 13 is finished
+dve2lts-sym, 1.881: level 14 is finished
+dve2lts-sym, 1.960: level 15 is finished
+dve2lts-sym, 2.040: level 16 is finished
+dve2lts-sym, 2.094: level 17 is finished
+dve2lts-sym, 2.125: level 18 is finished
+dve2lts-sym, 2.147: Exploration took 380 group checks and 380 next state calls
+dve2lts-sym, 2.147: reachability took 1.300 real 61.970 user 0.280 sys
+dve2lts-sym, 2.147: counting visited states...
+dve2lts-sym, 2.152: counting took 0.010 real 0.010 user 0.190 sys
+dve2lts-sym, 2.152: state space has 7057 states, 27055 nodes
+dve2lts-sym, 2.216: group_next: 109845 nodes total
+dve2lts-sym, 2.217: group_explored: 6470 nodes, 3477 short vectors total

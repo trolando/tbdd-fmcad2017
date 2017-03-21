@@ -1,0 +1,35 @@
+dve2lts-sym, 0.000: Exploration order is bfs-prev
+dve2lts-sym, 0.000: Saturation strategy is none
+dve2lts-sym, 0.000: Guided search strategy is unguided
+dve2lts-sym, 0.000: Attractor strategy is default
+dve2lts-sym, 0.000: Precompiled divine module initialized
+dve2lts-sym, 0.000: opening dve/peg_solitaire.6.dve2C
+dve2lts-sym, 0.012: Initializing regrouping layer
+dve2lts-sym, 0.012: Regroup specification: f
+dve2lts-sym, 0.012: Regroup FORCE
+dve2lts-sym, 0.012: Regrouping: 96->96 groups
+dve2lts-sym, 0.013: Regrouping took 0.010 real 0.000 user 0.000 sys
+dve2lts-sym, 0.013: state vector length is 38; there are 96 groups
+dve2lts-sym, 0.013: Creating a Sylvan domain.
+dve2lts-sym, 0.013: Sylvan allocates 10.500 GB virtual memory for nodes table and operation cache.
+dve2lts-sym, 0.013: Initial nodes table and operation cache requires 672.00 MB.
+dve2lts-sym, 0.117: Using GBgetTransitionsShortR2W as next-state function
+dve2lts-sym, 0.211: got initial state
+dve2lts-sym, 0.211: level 0 is finished
+dve2lts-sym, 0.217: level 1 is finished
+dve2lts-sym, 0.228: level 2 is finished
+dve2lts-sym, 0.261: level 3 is finished
+dve2lts-sym, 0.402: level 4 is finished
+dve2lts-sym, 1.102: level 5 is finished
+dve2lts-sym, 4.631: level 6 is finished
+dve2lts-sym, 21.864: level 7 is finished
+dve2lts-sym, 104.707: level 8 is finished
+dve2lts-sym, 110.406: vset_sylvan: starting garbage collection
+dve2lts-sym, 110.751: vset_sylvan: garbage collection done
+dve2lts-sym, 329.416: vset_sylvan: starting garbage collection
+dve2lts-sym, 330.113: vset_sylvan: garbage collection done
+dve2lts-sym, 495.240: level 9 is finished
+dve2lts-sym, 747.920: vset_sylvan: starting garbage collection
+dve2lts-sym, 749.272: vset_sylvan: garbage collection done
+dve2lts-sym, 1664.638: vset_sylvan: starting garbage collection
+dve2lts-sym, 1667.239: vset_sylvan: garbage collection done

@@ -1,0 +1,39 @@
+dve2lts-sym, 0.000: Exploration order is bfs-prev
+dve2lts-sym, 0.000: Saturation strategy is none
+dve2lts-sym, 0.000: Guided search strategy is unguided
+dve2lts-sym, 0.000: Attractor strategy is default
+dve2lts-sym, 0.000: Precompiled divine module initialized
+dve2lts-sym, 0.000: opening dve/pouring.2.dve2C
+dve2lts-sym, 0.056: Initializing regrouping layer
+dve2lts-sym, 0.057: Regroup specification: f
+dve2lts-sym, 0.057: Regroup FORCE
+dve2lts-sym, 0.058: Regrouping: 1724->1724 groups
+dve2lts-sym, 0.059: Regrouping took 0.000 real 0.010 user 0.000 sys
+dve2lts-sym, 0.059: state vector length is 7; there are 1724 groups
+dve2lts-sym, 0.059: Creating a Sylvan domain.
+dve2lts-sym, 0.059: Sylvan allocates 10.500 GB virtual memory for nodes table and operation cache.
+dve2lts-sym, 0.059: Initial nodes table and operation cache requires 672.00 MB.
+dve2lts-sym, 0.150: Using GBgetTransitionsShortR2W as next-state function
+dve2lts-sym, 0.267: got initial state
+dve2lts-sym, 0.272: level 0 is finished
+dve2lts-sym, 0.278: level 1 is finished
+dve2lts-sym, 0.287: level 2 is finished
+dve2lts-sym, 0.315: level 3 is finished
+dve2lts-sym, 0.372: level 4 is finished
+dve2lts-sym, 0.482: level 5 is finished
+dve2lts-sym, 0.669: level 6 is finished
+dve2lts-sym, 0.992: level 7 is finished
+dve2lts-sym, 1.446: level 8 is finished
+dve2lts-sym, 2.044: level 9 is finished
+dve2lts-sym, 2.733: level 10 is finished
+dve2lts-sym, 3.389: level 11 is finished
+dve2lts-sym, 3.859: level 12 is finished
+dve2lts-sym, 4.061: level 13 is finished
+dve2lts-sym, 4.107: level 14 is finished
+dve2lts-sym, 4.115: Exploration took 25860 group checks and 25860 next state calls
+dve2lts-sym, 4.115: reachability took 3.840 real 3.850 user 0.000 sys
+dve2lts-sym, 4.115: counting visited states...
+dve2lts-sym, 4.115: counting took 0.010 real 0.000 user 0.000 sys
+dve2lts-sym, 4.115: state space has 51624 states, 29 nodes
+dve2lts-sym, 4.118: group_next: 9947 nodes total
+dve2lts-sym, 4.118: group_explored: 6416 nodes, 177564 short vectors total

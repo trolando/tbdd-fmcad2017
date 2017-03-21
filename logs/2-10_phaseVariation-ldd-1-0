@@ -1,0 +1,41 @@
+pnml2lts-sym, 0.000: Exploration order is bfs-prev
+pnml2lts-sym, 0.000: Saturation strategy is none
+pnml2lts-sym, 0.000: Guided search strategy is unguided
+pnml2lts-sym, 0.000: Attractor strategy is default
+pnml2lts-sym, 0.000: opening pnml/2-10_phaseVariation.pnml
+pnml2lts-sym, 0.011: Petri net has 14 places, 65 transitions and 443 arcs
+pnml2lts-sym, 0.011: There are 0 safe places
+pnml2lts-sym, 0.013: Petri net pnml/2-10_phaseVariation.pnml analyzed
+pnml2lts-sym, 0.015: Loading Petri net took 0.020 real 0.010 user 0.010 sys
+pnml2lts-sym, 0.015: Initializing regrouping layer
+pnml2lts-sym, 0.015: Regroup specification: f
+pnml2lts-sym, 0.015: Regroup FORCE
+pnml2lts-sym, 0.015: Regrouping: 65->65 groups
+pnml2lts-sym, 0.015: Regrouping took 0.000 real 0.000 user 0.000 sys
+pnml2lts-sym, 0.015: state vector length is 14; there are 65 groups
+pnml2lts-sym, 0.015: Creating a multi-core ListDD domain.
+pnml2lts-sym, 0.015: Sylvan allocates 10.500 GB virtual memory for nodes table and operation cache.
+pnml2lts-sym, 0.015: Initial nodes table and operation cache requires 672.00 MB.
+pnml2lts-sym, 0.062: Using GBgetTransitionsShortR2W as next-state function
+pnml2lts-sym, 0.121: got initial state
+pnml2lts-sym, 0.121: level 0 is finished
+pnml2lts-sym, 0.200: level 1 is finished
+pnml2lts-sym, 0.203: level 2 is finished
+pnml2lts-sym, 0.207: level 3 is finished
+pnml2lts-sym, 0.216: level 4 is finished
+pnml2lts-sym, 0.226: level 5 is finished
+pnml2lts-sym, 0.238: level 6 is finished
+pnml2lts-sym, 0.249: level 7 is finished
+pnml2lts-sym, 0.260: level 8 is finished
+pnml2lts-sym, 0.270: level 9 is finished
+pnml2lts-sym, 0.278: level 10 is finished
+pnml2lts-sym, 0.285: level 11 is finished
+pnml2lts-sym, 0.288: level 12 is finished
+pnml2lts-sym, 0.288: Exploration took 845 group checks and 845 next state calls
+pnml2lts-sym, 0.288: reachability took 0.170 real 0.090 user 0.080 sys
+pnml2lts-sym, 0.288: counting visited states...
+pnml2lts-sym, 0.289: counting took 0.000 real 0.000 user 0.000 sys
+pnml2lts-sym, 0.289: state space has 7716 states, 228 nodes
+pnml2lts-sym, 0.290: group_next: 4079 nodes total
+pnml2lts-sym, 0.290: group_explored: 4074 nodes, 17471 short vectors total
+pnml2lts-sym, 0.290: max token count: 12

@@ -1,0 +1,37 @@
+pnml2lts-sym, 0.000: Exploration order is bfs-prev
+pnml2lts-sym, 0.000: Saturation strategy is none
+pnml2lts-sym, 0.000: Guided search strategy is unguided
+pnml2lts-sym, 0.000: Attractor strategy is default
+pnml2lts-sym, 0.000: opening pnml/BridgeAndVehicles-V50-P20-N50-unfolded.pnml
+pnml2lts-sym, 0.332: Petri net has 168 places, 5408 transitions and 42330 arcs
+pnml2lts-sym, 0.332: There are 0 safe places
+pnml2lts-sym, 0.425: Petri net pnml/BridgeAndVehicles-V50-P20-N50-unfolded.pnml analyzed
+pnml2lts-sym, 0.568: Loading Petri net took 0.570 real 0.510 user 0.070 sys
+pnml2lts-sym, 0.568: Initializing regrouping layer
+pnml2lts-sym, 0.569: Regroup specification: f
+pnml2lts-sym, 0.569: Regroup FORCE
+pnml2lts-sym, 0.689: Regrouping: 5408->5408 groups
+pnml2lts-sym, 0.742: Regrouping took 0.170 real 0.170 user 0.000 sys
+pnml2lts-sym, 0.742: state vector length is 168; there are 5408 groups
+pnml2lts-sym, 0.742: Creating a Sylvan domain.
+pnml2lts-sym, 0.742: Sylvan allocates 10.500 GB virtual memory for nodes table and operation cache.
+pnml2lts-sym, 0.742: Initial nodes table and operation cache requires 672.00 MB.
+pnml2lts-sym, 0.849: Using GBgetTransitionsShortR2W as next-state function
+pnml2lts-sym, 3.620: got initial state
+pnml2lts-sym, 3.630: level 0 is finished
+pnml2lts-sym, 4.862: level 1 is finished
+pnml2lts-sym, 7.990: level 2 is finished
+pnml2lts-sym, 11.942: level 3 is finished
+pnml2lts-sym, 17.366: level 4 is finished
+pnml2lts-sym, 26.749: level 5 is finished
+pnml2lts-sym, 39.751: level 6 is finished
+pnml2lts-sym, 61.003: level 7 is finished
+pnml2lts-sym, 92.046: level 8 is finished
+pnml2lts-sym, 133.293: level 9 is finished
+pnml2lts-sym, 186.654: level 10 is finished
+pnml2lts-sym, 254.042: level 11 is finished
+pnml2lts-sym, 337.100: level 12 is finished
+pnml2lts-sym, 439.089: level 13 is finished
+pnml2lts-sym, 563.288: vset_sylvan: starting garbage collection
+pnml2lts-sym, 564.924: vset_sylvan: garbage collection done
+pnml2lts-sym, 565.096: level 14 is finished

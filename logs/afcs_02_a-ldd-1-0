@@ -1,0 +1,63 @@
+pnml2lts-sym, 0.000: Exploration order is bfs-prev
+pnml2lts-sym, 0.000: Saturation strategy is none
+pnml2lts-sym, 0.000: Guided search strategy is unguided
+pnml2lts-sym, 0.000: Attractor strategy is default
+pnml2lts-sym, 0.000: opening pnml/afcs_02_a.pnml
+pnml2lts-sym, 0.004: Petri net has 57 places, 55 transitions and 180 arcs
+pnml2lts-sym, 0.004: There are 57 safe places
+pnml2lts-sym, 0.004: Petri net pnml/afcs_02_a.pnml analyzed
+pnml2lts-sym, 0.005: Loading Petri net took 0.010 real 0.000 user 0.000 sys
+pnml2lts-sym, 0.005: Initializing regrouping layer
+pnml2lts-sym, 0.005: Regroup specification: f
+pnml2lts-sym, 0.005: Regroup FORCE
+pnml2lts-sym, 0.006: Regrouping: 55->55 groups
+pnml2lts-sym, 0.006: Regrouping took 0.000 real 0.000 user 0.000 sys
+pnml2lts-sym, 0.006: state vector length is 57; there are 55 groups
+pnml2lts-sym, 0.006: Creating a multi-core ListDD domain.
+pnml2lts-sym, 0.006: Sylvan allocates 10.500 GB virtual memory for nodes table and operation cache.
+pnml2lts-sym, 0.006: Initial nodes table and operation cache requires 672.00 MB.
+pnml2lts-sym, 0.054: Using GBgetTransitionsShortR2W as next-state function
+pnml2lts-sym, 0.113: got initial state
+pnml2lts-sym, 0.113: level 0 is finished
+pnml2lts-sym, 0.188: level 1 is finished
+pnml2lts-sym, 0.189: level 2 is finished
+pnml2lts-sym, 0.190: level 3 is finished
+pnml2lts-sym, 0.192: level 4 is finished
+pnml2lts-sym, 0.194: level 5 is finished
+pnml2lts-sym, 0.197: level 6 is finished
+pnml2lts-sym, 0.200: level 7 is finished
+pnml2lts-sym, 0.205: level 8 is finished
+pnml2lts-sym, 0.210: level 9 is finished
+pnml2lts-sym, 0.216: level 10 is finished
+pnml2lts-sym, 0.221: level 11 is finished
+pnml2lts-sym, 0.225: level 12 is finished
+pnml2lts-sym, 0.230: level 13 is finished
+pnml2lts-sym, 0.235: level 14 is finished
+pnml2lts-sym, 0.241: level 15 is finished
+pnml2lts-sym, 0.248: level 16 is finished
+pnml2lts-sym, 0.254: level 17 is finished
+pnml2lts-sym, 0.262: level 18 is finished
+pnml2lts-sym, 0.269: level 19 is finished
+pnml2lts-sym, 0.275: level 20 is finished
+pnml2lts-sym, 0.280: level 21 is finished
+pnml2lts-sym, 0.285: level 22 is finished
+pnml2lts-sym, 0.290: level 23 is finished
+pnml2lts-sym, 0.294: level 24 is finished
+pnml2lts-sym, 0.297: level 25 is finished
+pnml2lts-sym, 0.300: level 26 is finished
+pnml2lts-sym, 0.303: level 27 is finished
+pnml2lts-sym, 0.305: level 28 is finished
+pnml2lts-sym, 0.306: level 29 is finished
+pnml2lts-sym, 0.307: level 30 is finished
+pnml2lts-sym, 0.308: level 31 is finished
+pnml2lts-sym, 0.309: level 32 is finished
+pnml2lts-sym, 0.310: level 33 is finished
+pnml2lts-sym, 0.310: level 34 is finished
+pnml2lts-sym, 0.310: Exploration took 1925 group checks and 1925 next state calls
+pnml2lts-sym, 0.310: reachability took 0.190 real 0.130 user 0.070 sys
+pnml2lts-sym, 0.310: counting visited states...
+pnml2lts-sym, 0.311: counting took 0.000 real 0.000 user 0.000 sys
+pnml2lts-sym, 0.311: state space has 6949 states, 609 nodes
+pnml2lts-sym, 0.311: group_next: 308 nodes total
+pnml2lts-sym, 0.311: group_explored: 174 nodes, 148 short vectors total
+pnml2lts-sym, 0.311: max token count: 1

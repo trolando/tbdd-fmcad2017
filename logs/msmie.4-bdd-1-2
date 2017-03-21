@@ -1,0 +1,87 @@
+dve2lts-sym, 0.000: Exploration order is bfs-prev
+dve2lts-sym, 0.000: Saturation strategy is none
+dve2lts-sym, 0.000: Guided search strategy is unguided
+dve2lts-sym, 0.000: Attractor strategy is default
+dve2lts-sym, 0.000: Precompiled divine module initialized
+dve2lts-sym, 0.000: opening dve/msmie.4.dve2C
+dve2lts-sym, 0.018: Initializing regrouping layer
+dve2lts-sym, 0.018: Regroup specification: f
+dve2lts-sym, 0.018: Regroup FORCE
+dve2lts-sym, 0.020: Regrouping: 450->450 groups
+dve2lts-sym, 0.020: Regrouping took 0.000 real 0.000 user 0.000 sys
+dve2lts-sym, 0.021: state vector length is 28; there are 450 groups
+dve2lts-sym, 0.021: Creating a Sylvan domain.
+dve2lts-sym, 0.021: Sylvan allocates 10.500 GB virtual memory for nodes table and operation cache.
+dve2lts-sym, 0.021: Initial nodes table and operation cache requires 672.00 MB.
+dve2lts-sym, 0.126: Using GBgetTransitionsShortR2W as next-state function
+dve2lts-sym, 0.234: got initial state
+dve2lts-sym, 0.235: level 0 is finished
+dve2lts-sym, 0.251: level 1 is finished
+dve2lts-sym, 0.283: level 2 is finished
+dve2lts-sym, 0.305: level 3 is finished
+dve2lts-sym, 0.333: level 4 is finished
+dve2lts-sym, 0.368: level 5 is finished
+dve2lts-sym, 0.387: level 6 is finished
+dve2lts-sym, 0.419: level 7 is finished
+dve2lts-sym, 0.471: level 8 is finished
+dve2lts-sym, 0.533: level 9 is finished
+dve2lts-sym, 0.610: level 10 is finished
+dve2lts-sym, 0.701: level 11 is finished
+dve2lts-sym, 0.813: level 12 is finished
+dve2lts-sym, 0.926: level 13 is finished
+dve2lts-sym, 1.075: level 14 is finished
+dve2lts-sym, 1.179: level 15 is finished
+dve2lts-sym, 1.388: level 16 is finished
+dve2lts-sym, 1.602: level 17 is finished
+dve2lts-sym, 1.786: level 18 is finished
+dve2lts-sym, 2.055: level 19 is finished
+dve2lts-sym, 2.283: level 20 is finished
+dve2lts-sym, 2.530: level 21 is finished
+dve2lts-sym, 2.833: level 22 is finished
+dve2lts-sym, 3.104: level 23 is finished
+dve2lts-sym, 3.352: level 24 is finished
+dve2lts-sym, 3.633: level 25 is finished
+dve2lts-sym, 3.920: level 26 is finished
+dve2lts-sym, 4.193: level 27 is finished
+dve2lts-sym, 4.493: level 28 is finished
+dve2lts-sym, 4.783: level 29 is finished
+dve2lts-sym, 5.089: level 30 is finished
+dve2lts-sym, 5.491: level 31 is finished
+dve2lts-sym, 5.846: level 32 is finished
+dve2lts-sym, 6.190: level 33 is finished
+dve2lts-sym, 6.550: level 34 is finished
+dve2lts-sym, 6.901: level 35 is finished
+dve2lts-sym, 7.267: level 36 is finished
+dve2lts-sym, 7.610: level 37 is finished
+dve2lts-sym, 7.948: level 38 is finished
+dve2lts-sym, 8.299: level 39 is finished
+dve2lts-sym, 8.631: level 40 is finished
+dve2lts-sym, 8.939: level 41 is finished
+dve2lts-sym, 9.236: level 42 is finished
+dve2lts-sym, 9.527: level 43 is finished
+dve2lts-sym, 9.805: level 44 is finished
+dve2lts-sym, 10.081: level 45 is finished
+dve2lts-sym, 10.335: level 46 is finished
+dve2lts-sym, 10.562: level 47 is finished
+dve2lts-sym, 10.818: level 48 is finished
+dve2lts-sym, 11.046: level 49 is finished
+dve2lts-sym, 11.242: level 50 is finished
+dve2lts-sym, 11.461: level 51 is finished
+dve2lts-sym, 11.665: level 52 is finished
+dve2lts-sym, 11.857: level 53 is finished
+dve2lts-sym, 12.058: level 54 is finished
+dve2lts-sym, 12.218: level 55 is finished
+dve2lts-sym, 12.393: level 56 is finished
+dve2lts-sym, 12.563: level 57 is finished
+dve2lts-sym, 12.702: level 58 is finished
+dve2lts-sym, 12.859: level 59 is finished
+dve2lts-sym, 12.962: level 60 is finished
+dve2lts-sym, 13.027: level 61 is finished
+dve2lts-sym, 13.130: level 62 is finished
+dve2lts-sym, 13.198: Exploration took 28350 group checks and 28350 next state calls
+dve2lts-sym, 13.198: reachability took 12.970 real 12.920 user 0.040 sys
+dve2lts-sym, 13.198: counting visited states...
+dve2lts-sym, 13.200: counting took 0.000 real 0.000 user 0.000 sys
+dve2lts-sym, 13.201: state space has 7125441 states, 7078 nodes
+dve2lts-sym, 13.216: group_next: 42843 nodes total
+dve2lts-sym, 13.216: group_explored: 61701 nodes, 45470 short vectors total

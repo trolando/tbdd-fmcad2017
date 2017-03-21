@@ -1,0 +1,95 @@
+pnml2lts-sym, 0.000: Exploration order is bfs-prev
+pnml2lts-sym, 0.000: Saturation strategy is none
+pnml2lts-sym, 0.000: Guided search strategy is unguided
+pnml2lts-sym, 0.000: Attractor strategy is default
+pnml2lts-sym, 0.000: opening pnml/rwmutex-r2000w10.pnml
+pnml2lts-sym, 0.301: Petri net has 6020 places, 4020 transitions and 52040 arcs
+pnml2lts-sym, 0.301: There are 0 safe places
+pnml2lts-sym, 0.643: Petri net pnml/rwmutex-r2000w10.pnml analyzed
+pnml2lts-sym, 0.801: Loading Petri net took 0.800 real 0.740 user 0.070 sys
+pnml2lts-sym, 0.801: Initializing regrouping layer
+pnml2lts-sym, 0.812: Regroup specification: f
+pnml2lts-sym, 0.812: Regroup FORCE
+pnml2lts-sym, 5.901: Regrouping: 4020->4020 groups
+pnml2lts-sym, 7.256: Regrouping took 6.450 real 6.400 user 0.050 sys
+pnml2lts-sym, 7.256: state vector length is 6020; there are 4020 groups
+pnml2lts-sym, 7.256: Creating a multi-core ListDD domain.
+pnml2lts-sym, 7.256: Sylvan allocates 10.500 GB virtual memory for nodes table and operation cache.
+pnml2lts-sym, 7.256: Initial nodes table and operation cache requires 672.00 MB.
+pnml2lts-sym, 7.305: Using GBgetTransitionsShortR2W as next-state function
+pnml2lts-sym, 24.655: got initial state
+pnml2lts-sym, 24.660: level 0 is finished
+pnml2lts-sym, 31.178: vset_sylvan: starting garbage collection
+pnml2lts-sym, 35.803: vset_sylvan: garbage collection done
+*** segmentation fault ***
+
+Please send information on how to reproduce this problem to: 
+         ltsmin-support@lists.utwente.nl
+along with all output preceding this message.
+In addition, include the following information:
+Package: ltsmin 3.0
+Stack trace:
+  0: ./pnml2lts-sym() [0x42ce4a]
+  1: ./pnml2lts-sym() [0x42cec6]
+  2: /lib/x86_64-linux-gnu/libpthread.so.0(+0x10330) [0x7ff041331330]
+  3: /lib/x86_64-linux-gnu/libc.so.6(+0x9803e) [0x7ff0407d403e]
+  4: ./pnml2lts-sym() [0x41e7f2]
+  5: ./pnml2lts-sym() [0x43b9c1]
+  6: ./pnml2lts-sym() [0x4343f3]
+  7: ./pnml2lts-sym() [0x40dc0b]
+  8: ./pnml2lts-sym() [0x496ac2]
+  9: ./pnml2lts-sym() [0x4c46a9]
+ 10: ./pnml2lts-sym() [0x4c45da]
+ 11: ./pnml2lts-sym() [0x4c45da]
+ 12: ./pnml2lts-sym() [0x4c45da]
+ 13: ./pnml2lts-sym() [0x4c45da]
+ 14: ./pnml2lts-sym() [0x4c45da]
+ 15: ./pnml2lts-sym() [0x4c45da]
+ 16: ./pnml2lts-sym() [0x4c45da]
+ 17: ./pnml2lts-sym() [0x4c45da]
+ 18: ./pnml2lts-sym() [0x4c45da]
+ 19: ./pnml2lts-sym() [0x4c45da]
+ 20: ./pnml2lts-sym() [0x4c45da]
+ 21: ./pnml2lts-sym() [0x4c45da]
+ 22: ./pnml2lts-sym() [0x4c45da]
+ 23: ./pnml2lts-sym() [0x4c45da]
+ 24: ./pnml2lts-sym() [0x4c45da]
+ 25: ./pnml2lts-sym() [0x4c45da]
+ 26: ./pnml2lts-sym() [0x4c45da]
+ 27: ./pnml2lts-sym() [0x4c45da]
+ 28: ./pnml2lts-sym() [0x4c45da]
+ 29: ./pnml2lts-sym() [0x4c45da]
+ 30: ./pnml2lts-sym() [0x4c45da]
+ 31: ./pnml2lts-sym() [0x4c45da]
+ 32: ./pnml2lts-sym() [0x4c45da]
+ 33: ./pnml2lts-sym() [0x4c45da]
+ 34: ./pnml2lts-sym() [0x4c45da]
+ 35: ./pnml2lts-sym() [0x4c45da]
+ 36: ./pnml2lts-sym() [0x4c45da]
+ 37: ./pnml2lts-sym() [0x4c45da]
+ 38: ./pnml2lts-sym() [0x4c45da]
+ 39: ./pnml2lts-sym() [0x4c45da]
+ 40: ./pnml2lts-sym() [0x4c45da]
+ 41: ./pnml2lts-sym() [0x4c45da]
+ 42: ./pnml2lts-sym() [0x4c45da]
+ 43: ./pnml2lts-sym() [0x4c45da]
+ 44: ./pnml2lts-sym() [0x4c45da]
+ 45: ./pnml2lts-sym() [0x4c45da]
+ 46: ./pnml2lts-sym() [0x4c45da]
+ 47: ./pnml2lts-sym() [0x4c45da]
+ 48: ./pnml2lts-sym() [0x4c45da]
+ 49: ./pnml2lts-sym() [0x4c45da]
+ 50: ./pnml2lts-sym() [0x4c45da]
+ 51: ./pnml2lts-sym() [0x4c45da]
+ 52: ./pnml2lts-sym() [0x4c45da]
+ 53: ./pnml2lts-sym() [0x4c45da]
+ 54: ./pnml2lts-sym() [0x4c45da]
+ 55: ./pnml2lts-sym() [0x4c45da]
+ 56: ./pnml2lts-sym() [0x4c45da]
+ 57: ./pnml2lts-sym() [0x4c45da]
+ 58: ./pnml2lts-sym() [0x4c45da]
+ 59: ./pnml2lts-sym() [0x4c45da]
+ 60: ./pnml2lts-sym() [0x4c45da]
+ 61: ./pnml2lts-sym() [0x4c45da]
+ 62: ./pnml2lts-sym() [0x4c45da]
+ 63: ./pnml2lts-sym() [0x4c45da]

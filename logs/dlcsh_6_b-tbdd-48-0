@@ -1,0 +1,12 @@
+pnml2lts-sym, 0.000: Exploration order is bfs-prev
+pnml2lts-sym, 0.000: Saturation strategy is none
+pnml2lts-sym, 0.000: Guided search strategy is unguided
+pnml2lts-sym, 0.000: Attractor strategy is default
+pnml2lts-sym, 0.000: opening pnml/dlcsh_6_b.pnml
+pnml2lts-sym, 1.471: Petri net has 44243 places, 66611 transitions and 182532 arcs
+pnml2lts-sym, 1.485: There are 44243 safe places
+pnml2lts-sym, 29.853: Petri net pnml/dlcsh_6_b.pnml analyzed
+pnml2lts-sym, 30.617: Loading Petri net took 30.620 real 29.760 user 0.850 sys
+pnml2lts-sym, 30.617: Initializing regrouping layer
+pnml2lts-sym, 31.918: Regroup specification: f
+pnml2lts-sym, 31.918: Regroup FORCE

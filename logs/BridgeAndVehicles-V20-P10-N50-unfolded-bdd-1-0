@@ -1,0 +1,40 @@
+pnml2lts-sym, 0.000: Exploration order is bfs-prev
+pnml2lts-sym, 0.000: Saturation strategy is none
+pnml2lts-sym, 0.000: Guided search strategy is unguided
+pnml2lts-sym, 0.000: Attractor strategy is default
+pnml2lts-sym, 0.000: opening pnml/BridgeAndVehicles-V20-P10-N50-unfolded.pnml
+pnml2lts-sym, 0.136: Petri net has 108 places, 2228 transitions and 17190 arcs
+pnml2lts-sym, 0.136: There are 0 safe places
+pnml2lts-sym, 0.172: Petri net pnml/BridgeAndVehicles-V20-P10-N50-unfolded.pnml analyzed
+pnml2lts-sym, 0.231: Loading Petri net took 0.230 real 0.200 user 0.030 sys
+pnml2lts-sym, 0.231: Initializing regrouping layer
+pnml2lts-sym, 0.231: Regroup specification: f
+pnml2lts-sym, 0.231: Regroup FORCE
+pnml2lts-sym, 0.251: Regrouping: 2228->2228 groups
+pnml2lts-sym, 0.265: Regrouping took 0.040 real 0.030 user 0.000 sys
+pnml2lts-sym, 0.265: state vector length is 108; there are 2228 groups
+pnml2lts-sym, 0.265: Creating a Sylvan domain.
+pnml2lts-sym, 0.265: Sylvan allocates 10.500 GB virtual memory for nodes table and operation cache.
+pnml2lts-sym, 0.265: Initial nodes table and operation cache requires 672.00 MB.
+pnml2lts-sym, 0.371: Using GBgetTransitionsShortR2W as next-state function
+pnml2lts-sym, 1.256: got initial state
+pnml2lts-sym, 1.259: level 0 is finished
+pnml2lts-sym, 1.621: level 1 is finished
+pnml2lts-sym, 2.544: level 2 is finished
+pnml2lts-sym, 3.688: level 3 is finished
+pnml2lts-sym, 5.236: level 4 is finished
+pnml2lts-sym, 7.392: level 5 is finished
+pnml2lts-sym, 9.955: level 6 is finished
+pnml2lts-sym, 13.475: level 7 is finished
+pnml2lts-sym, 18.738: level 8 is finished
+pnml2lts-sym, 26.190: level 9 is finished
+pnml2lts-sym, 37.996: level 10 is finished
+pnml2lts-sym, 56.325: level 11 is finished
+pnml2lts-sym, 82.002: level 12 is finished
+pnml2lts-sym, 114.302: level 13 is finished
+pnml2lts-sym, 153.782: level 14 is finished
+pnml2lts-sym, 201.825: level 15 is finished
+pnml2lts-sym, 260.677: level 16 is finished
+pnml2lts-sym, 331.120: level 17 is finished
+pnml2lts-sym, 414.452: level 18 is finished
+pnml2lts-sym, 512.367: level 19 is finished

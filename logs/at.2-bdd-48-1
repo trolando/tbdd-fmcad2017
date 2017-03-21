@@ -1,0 +1,72 @@
+dve2lts-sym, 0.000: Exploration order is bfs-prev
+dve2lts-sym, 0.000: Saturation strategy is none
+dve2lts-sym, 0.000: Guided search strategy is unguided
+dve2lts-sym, 0.000: Attractor strategy is default
+dve2lts-sym, 0.000: Precompiled divine module initialized
+dve2lts-sym, 0.000: opening dve/at.2.dve2C
+dve2lts-sym, 0.002: Initializing regrouping layer
+dve2lts-sym, 0.002: Regroup specification: f
+dve2lts-sym, 0.002: Regroup FORCE
+dve2lts-sym, 0.003: Regrouping: 43->43 groups
+dve2lts-sym, 0.003: Regrouping took 0.000 real 0.000 user 0.000 sys
+dve2lts-sym, 0.003: state vector length is 10; there are 43 groups
+dve2lts-sym, 0.003: Creating a Sylvan domain.
+dve2lts-sym, 0.003: Sylvan allocates 10.500 GB virtual memory for nodes table and operation cache.
+dve2lts-sym, 0.003: Initial nodes table and operation cache requires 672.00 MB.
+dve2lts-sym, 0.412: Using GBgetTransitionsShortR2W as next-state function
+dve2lts-sym, 0.549: got initial state
+dve2lts-sym, 0.549: level 0 is finished
+dve2lts-sym, 0.555: level 1 is finished
+dve2lts-sym, 0.563: level 2 is finished
+dve2lts-sym, 0.573: level 3 is finished
+dve2lts-sym, 0.588: level 4 is finished
+dve2lts-sym, 0.606: level 5 is finished
+dve2lts-sym, 0.631: level 6 is finished
+dve2lts-sym, 0.668: level 7 is finished
+dve2lts-sym, 0.711: level 8 is finished
+dve2lts-sym, 0.764: level 9 is finished
+dve2lts-sym, 0.830: level 10 is finished
+dve2lts-sym, 0.906: level 11 is finished
+dve2lts-sym, 0.989: level 12 is finished
+dve2lts-sym, 1.073: level 13 is finished
+dve2lts-sym, 1.162: level 14 is finished
+dve2lts-sym, 1.255: level 15 is finished
+dve2lts-sym, 1.445: level 16 is finished
+dve2lts-sym, 1.545: level 17 is finished
+dve2lts-sym, 1.682: level 18 is finished
+dve2lts-sym, 1.785: level 19 is finished
+dve2lts-sym, 1.892: level 20 is finished
+dve2lts-sym, 2.002: level 21 is finished
+dve2lts-sym, 2.115: level 22 is finished
+dve2lts-sym, 2.234: level 23 is finished
+dve2lts-sym, 2.354: level 24 is finished
+dve2lts-sym, 2.473: level 25 is finished
+dve2lts-sym, 2.585: level 26 is finished
+dve2lts-sym, 2.707: level 27 is finished
+dve2lts-sym, 2.813: level 28 is finished
+dve2lts-sym, 2.916: level 29 is finished
+dve2lts-sym, 3.011: level 30 is finished
+dve2lts-sym, 3.090: level 31 is finished
+dve2lts-sym, 3.160: level 32 is finished
+dve2lts-sym, 3.226: level 33 is finished
+dve2lts-sym, 3.274: level 34 is finished
+dve2lts-sym, 3.402: level 35 is finished
+dve2lts-sym, 3.437: level 36 is finished
+dve2lts-sym, 3.465: level 37 is finished
+dve2lts-sym, 3.493: level 38 is finished
+dve2lts-sym, 3.523: level 39 is finished
+dve2lts-sym, 3.549: level 40 is finished
+dve2lts-sym, 3.575: level 41 is finished
+dve2lts-sym, 3.600: level 42 is finished
+dve2lts-sym, 3.627: level 43 is finished
+dve2lts-sym, 3.651: level 44 is finished
+dve2lts-sym, 3.673: level 45 is finished
+dve2lts-sym, 3.691: level 46 is finished
+dve2lts-sym, 3.702: level 47 is finished
+dve2lts-sym, 3.707: Exploration took 2064 group checks and 2064 next state calls
+dve2lts-sym, 3.707: reachability took 3.160 real 151.130 user 0.270 sys
+dve2lts-sym, 3.707: counting visited states...
+dve2lts-sym, 3.709: counting took 0.000 real 0.090 user 0.000 sys
+dve2lts-sym, 3.710: state space has 49443 states, 19293 nodes
+dve2lts-sym, 3.718: group_next: 3394 nodes total
+dve2lts-sym, 3.718: group_explored: 2079 nodes, 1177 short vectors total

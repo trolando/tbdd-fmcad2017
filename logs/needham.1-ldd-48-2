@@ -1,0 +1,40 @@
+dve2lts-sym, 0.000: Exploration order is bfs-prev
+dve2lts-sym, 0.000: Saturation strategy is none
+dve2lts-sym, 0.000: Guided search strategy is unguided
+dve2lts-sym, 0.000: Attractor strategy is default
+dve2lts-sym, 0.000: Precompiled divine module initialized
+dve2lts-sym, 0.005: opening dve/needham.1.dve2C
+dve2lts-sym, 0.007: Initializing regrouping layer
+dve2lts-sym, 0.007: Regroup specification: f
+dve2lts-sym, 0.007: Regroup FORCE
+dve2lts-sym, 0.007: Regrouping: 55->55 groups
+dve2lts-sym, 0.008: Regrouping took 0.010 real 0.000 user 0.000 sys
+dve2lts-sym, 0.008: state vector length is 14; there are 55 groups
+dve2lts-sym, 0.008: Creating a multi-core ListDD domain.
+dve2lts-sym, 0.008: Sylvan allocates 10.500 GB virtual memory for nodes table and operation cache.
+dve2lts-sym, 0.008: Initial nodes table and operation cache requires 672.00 MB.
+dve2lts-sym, 0.241: Using GBgetTransitionsShortR2W as next-state function
+dve2lts-sym, 0.303: got initial state
+dve2lts-sym, 0.304: level 0 is finished
+dve2lts-sym, 0.392: level 1 is finished
+dve2lts-sym, 0.419: level 2 is finished
+dve2lts-sym, 0.429: level 3 is finished
+dve2lts-sym, 0.435: level 4 is finished
+dve2lts-sym, 0.440: level 5 is finished
+dve2lts-sym, 0.445: level 6 is finished
+dve2lts-sym, 0.449: level 7 is finished
+dve2lts-sym, 0.453: level 8 is finished
+dve2lts-sym, 0.455: level 9 is finished
+dve2lts-sym, 0.457: level 10 is finished
+dve2lts-sym, 0.459: level 11 is finished
+dve2lts-sym, 0.462: level 12 is finished
+dve2lts-sym, 0.465: level 13 is finished
+dve2lts-sym, 0.467: level 14 is finished
+dve2lts-sym, 0.468: level 15 is finished
+dve2lts-sym, 0.469: Exploration took 880 group checks and 880 next state calls
+dve2lts-sym, 0.469: reachability took 0.170 real 7.840 user 0.120 sys
+dve2lts-sym, 0.469: counting visited states...
+dve2lts-sym, 0.470: counting took 0.000 real 0.010 user 0.000 sys
+dve2lts-sym, 0.470: state space has 497 states, 387 nodes
+dve2lts-sym, 0.471: group_next: 398 nodes total
+dve2lts-sym, 0.471: group_explored: 1284 nodes, 2057 short vectors total

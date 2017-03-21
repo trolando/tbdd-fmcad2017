@@ -1,0 +1,29 @@
+pnml2lts-sym, 0.000: Exploration order is bfs-prev
+pnml2lts-sym, 0.000: Saturation strategy is none
+pnml2lts-sym, 0.000: Guided search strategy is unguided
+pnml2lts-sym, 0.000: Attractor strategy is default
+pnml2lts-sym, 0.000: opening pnml/lamport_fmea-3.pnml
+pnml2lts-sym, 0.006: Petri net has 18 places, 17 transitions and 68 arcs
+pnml2lts-sym, 0.006: There are 0 safe places
+pnml2lts-sym, 0.007: Petri net pnml/lamport_fmea-3.pnml analyzed
+pnml2lts-sym, 0.008: Loading Petri net took 0.010 real 0.010 user 0.000 sys
+pnml2lts-sym, 0.008: Initializing regrouping layer
+pnml2lts-sym, 0.008: Regroup specification: f
+pnml2lts-sym, 0.008: Regroup FORCE
+pnml2lts-sym, 0.008: Regrouping: 17->17 groups
+pnml2lts-sym, 0.008: Regrouping took 0.000 real 0.000 user 0.000 sys
+pnml2lts-sym, 0.008: state vector length is 18; there are 17 groups
+pnml2lts-sym, 0.009: Creating a Sylvan domain.
+pnml2lts-sym, 0.009: Sylvan allocates 10.500 GB virtual memory for nodes table and operation cache.
+pnml2lts-sym, 0.009: Initial nodes table and operation cache requires 672.00 MB.
+pnml2lts-sym, 0.390: Using GBgetTransitionsShortR2W as next-state function
+pnml2lts-sym, 0.471: got initial state
+pnml2lts-sym, 0.471: level 0 is finished
+pnml2lts-sym, 0.492: Exploration took 17 group checks and 17 next state calls
+pnml2lts-sym, 0.492: reachability took 0.020 real 0.990 user 0.030 sys
+pnml2lts-sym, 0.492: counting visited states...
+pnml2lts-sym, 0.492: counting took 0.000 real 0.000 user 0.000 sys
+pnml2lts-sym, 0.492: state space has 1 states, 0 nodes
+pnml2lts-sym, 0.492: group_next: 0 nodes total
+pnml2lts-sym, 0.492: group_explored: 0 nodes, 17 short vectors total
+pnml2lts-sym, 0.492: max token count: 0

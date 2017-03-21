@@ -1,0 +1,35 @@
+pnml2lts-sym, 0.000: Exploration order is bfs-prev
+pnml2lts-sym, 0.000: Saturation strategy is none
+pnml2lts-sym, 0.000: Guided search strategy is unguided
+pnml2lts-sym, 0.000: Attractor strategy is default
+pnml2lts-sym, 0.000: opening pnml/2D8_gradient_30x30_50.pnml
+pnml2lts-sym, 0.160: Petri net has 900 places, 6844 transitions and 13688 arcs
+pnml2lts-sym, 0.160: There are 0 safe places
+pnml2lts-sym, 0.284: Petri net pnml/2D8_gradient_30x30_50.pnml analyzed
+pnml2lts-sym, 0.353: Loading Petri net took 0.350 real 0.310 user 0.040 sys
+pnml2lts-sym, 0.353: Initializing regrouping layer
+pnml2lts-sym, 0.356: Regroup specification: f
+pnml2lts-sym, 0.356: Regroup FORCE
+pnml2lts-sym, 0.975: Regrouping: 6844->6844 groups
+pnml2lts-sym, 1.313: Regrouping took 0.960 real 0.950 user 0.010 sys
+pnml2lts-sym, 1.314: state vector length is 900; there are 6844 groups
+pnml2lts-sym, 1.314: Creating a Sylvan domain.
+pnml2lts-sym, 1.314: Sylvan allocates 10.500 GB virtual memory for nodes table and operation cache.
+pnml2lts-sym, 1.314: Initial nodes table and operation cache requires 672.00 MB.
+pnml2lts-sym, 1.570: Using GBgetTransitionsShortR2W as next-state function
+pnml2lts-sym, 21.447: vset_sylvan: starting garbage collection
+pnml2lts-sym, 21.594: vset_sylvan: garbage collection done
+pnml2lts-sym, 36.499: got initial state
+pnml2lts-sym, 36.514: level 0 is finished
+pnml2lts-sym, 47.327: level 1 is finished
+pnml2lts-sym, 51.590: level 2 is finished
+pnml2lts-sym, 58.299: level 3 is finished
+pnml2lts-sym, 67.903: level 4 is finished
+pnml2lts-sym, 83.760: level 5 is finished
+pnml2lts-sym, 87.649: vset_sylvan: starting garbage collection
+pnml2lts-sym, 87.944: vset_sylvan: garbage collection done
+pnml2lts-sym, 131.586: level 6 is finished
+pnml2lts-sym, 148.899: vset_sylvan: starting garbage collection
+pnml2lts-sym, 149.445: vset_sylvan: garbage collection done
+pnml2lts-sym, 151.067, ** error **: 16 bits are not enough for the state vector (try option --sylvan-bits=17)!
+pnml2lts-sym, 151.067, ** error **: 16 bits are not enough for the state vector (try option --sylvan-bits=17)!

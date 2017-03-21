@@ -1,0 +1,60 @@
+pnml2lts-sym, 0.000: Exploration order is bfs-prev
+pnml2lts-sym, 0.000: Saturation strategy is none
+pnml2lts-sym, 0.000: Guided search strategy is unguided
+pnml2lts-sym, 0.000: Attractor strategy is default
+pnml2lts-sym, 0.000: opening pnml/BridgeAndVehicles-V10-P10-N10-unfolded.pnml
+pnml2lts-sym, 0.035: Petri net has 48 places, 288 transitions and 2090 arcs
+pnml2lts-sym, 0.035: There are 0 safe places
+pnml2lts-sym, 0.039: Petri net pnml/BridgeAndVehicles-V10-P10-N10-unfolded.pnml analyzed
+pnml2lts-sym, 0.045: Loading Petri net took 0.050 real 0.030 user 0.000 sys
+pnml2lts-sym, 0.045: Initializing regrouping layer
+pnml2lts-sym, 0.045: Regroup specification: f
+pnml2lts-sym, 0.045: Regroup FORCE
+pnml2lts-sym, 0.047: Regrouping: 288->288 groups
+pnml2lts-sym, 0.048: Regrouping took 0.000 real 0.000 user 0.000 sys
+pnml2lts-sym, 0.048: state vector length is 48; there are 288 groups
+pnml2lts-sym, 0.048: Creating a Sylvan domain.
+pnml2lts-sym, 0.048: Sylvan allocates 10.500 GB virtual memory for nodes table and operation cache.
+pnml2lts-sym, 0.048: Initial nodes table and operation cache requires 672.00 MB.
+pnml2lts-sym, 0.151: Using GBgetTransitionsShortR2W as next-state function
+pnml2lts-sym, 0.293: got initial state
+pnml2lts-sym, 0.294: level 0 is finished
+pnml2lts-sym, 0.323: level 1 is finished
+pnml2lts-sym, 0.393: level 2 is finished
+pnml2lts-sym, 0.489: level 3 is finished
+pnml2lts-sym, 0.627: level 4 is finished
+pnml2lts-sym, 0.832: level 5 is finished
+pnml2lts-sym, 1.091: level 6 is finished
+pnml2lts-sym, 1.426: level 7 is finished
+pnml2lts-sym, 1.870: level 8 is finished
+pnml2lts-sym, 2.448: level 9 is finished
+pnml2lts-sym, 3.190: level 10 is finished
+pnml2lts-sym, 4.101: level 11 is finished
+pnml2lts-sym, 5.166: level 12 is finished
+pnml2lts-sym, 6.464: level 13 is finished
+pnml2lts-sym, 8.000: level 14 is finished
+pnml2lts-sym, 9.804: level 15 is finished
+pnml2lts-sym, 11.929: level 16 is finished
+pnml2lts-sym, 14.453: level 17 is finished
+pnml2lts-sym, 17.382: level 18 is finished
+pnml2lts-sym, 20.840: level 19 is finished
+pnml2lts-sym, 24.870: level 20 is finished
+pnml2lts-sym, 29.613: level 21 is finished
+pnml2lts-sym, 35.128: level 22 is finished
+pnml2lts-sym, 41.329: level 23 is finished
+pnml2lts-sym, 48.781: level 24 is finished
+pnml2lts-sym, 57.271: level 25 is finished
+pnml2lts-sym, 67.305: level 26 is finished
+pnml2lts-sym, 79.969: level 27 is finished
+pnml2lts-sym, 95.187: level 28 is finished
+pnml2lts-sym, 112.391: level 29 is finished
+pnml2lts-sym, 131.292: level 30 is finished
+pnml2lts-sym, 151.787: level 31 is finished
+pnml2lts-sym, 173.785: level 32 is finished
+pnml2lts-sym, 197.235: level 33 is finished
+pnml2lts-sym, 222.148: level 34 is finished
+pnml2lts-sym, 248.451: level 35 is finished
+pnml2lts-sym, 251.711: vset_sylvan: starting garbage collection
+pnml2lts-sym, 252.184: vset_sylvan: garbage collection done
+pnml2lts-sym, 280.151: level 36 is finished
+pnml2lts-sym, 285.189, ** error **: 16 bits are not enough for the state vector (try option --sylvan-bits=17)!

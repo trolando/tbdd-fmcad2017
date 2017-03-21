@@ -1,0 +1,13 @@
+pnml2lts-sym, 0.000: Exploration order is bfs-prev
+pnml2lts-sym, 0.000: Saturation strategy is none
+pnml2lts-sym, 0.000: Guided search strategy is unguided
+pnml2lts-sym, 0.000: Attractor strategy is default
+pnml2lts-sym, 0.000: opening pnml/shared_memory-pt-200.pnml
+pnml2lts-sym, 3.562: Petri net has 40601 places, 80200 transitions and 320000 arcs
+pnml2lts-sym, 3.563: There are 0 safe places
+pnml2lts-sym, 35.115: Petri net pnml/shared_memory-pt-200.pnml analyzed
+pnml2lts-sym, 36.789: Loading Petri net took 36.790 real 35.350 user 1.420 sys
+pnml2lts-sym, 36.789: Initializing regrouping layer
+pnml2lts-sym, 38.204: Regroup specification: f
+pnml2lts-sym, 38.205: Regroup FORCE
+pnml2lts-sym, 490.331: Regrouping: 80200->80200 groups

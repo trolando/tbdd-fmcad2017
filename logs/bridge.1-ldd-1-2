@@ -1,0 +1,48 @@
+dve2lts-sym, 0.000: Exploration order is bfs-prev
+dve2lts-sym, 0.000: Saturation strategy is none
+dve2lts-sym, 0.000: Guided search strategy is unguided
+dve2lts-sym, 0.000: Attractor strategy is default
+dve2lts-sym, 0.000: Precompiled divine module initialized
+dve2lts-sym, 0.000: opening dve/bridge.1.dve2C
+dve2lts-sym, 0.001: Initializing regrouping layer
+dve2lts-sym, 0.002: Regroup specification: f
+dve2lts-sym, 0.002: Regroup FORCE
+dve2lts-sym, 0.002: Regrouping: 41->41 groups
+dve2lts-sym, 0.002: Regrouping took 0.000 real 0.000 user 0.000 sys
+dve2lts-sym, 0.002: state vector length is 10; there are 41 groups
+dve2lts-sym, 0.002: Creating a multi-core ListDD domain.
+dve2lts-sym, 0.002: Sylvan allocates 10.500 GB virtual memory for nodes table and operation cache.
+dve2lts-sym, 0.002: Initial nodes table and operation cache requires 672.00 MB.
+dve2lts-sym, 0.056: Using GBgetTransitionsShortR2W as next-state function
+dve2lts-sym, 0.114: got initial state
+dve2lts-sym, 0.114: level 0 is finished
+dve2lts-sym, 0.182: level 1 is finished
+dve2lts-sym, 0.194: level 2 is finished
+dve2lts-sym, 0.196: level 3 is finished
+dve2lts-sym, 0.197: level 4 is finished
+dve2lts-sym, 0.197: level 5 is finished
+dve2lts-sym, 0.199: level 6 is finished
+dve2lts-sym, 0.201: level 7 is finished
+dve2lts-sym, 0.203: level 8 is finished
+dve2lts-sym, 0.206: level 9 is finished
+dve2lts-sym, 0.211: level 10 is finished
+dve2lts-sym, 0.216: level 11 is finished
+dve2lts-sym, 0.219: level 12 is finished
+dve2lts-sym, 0.224: level 13 is finished
+dve2lts-sym, 0.230: level 14 is finished
+dve2lts-sym, 0.235: level 15 is finished
+dve2lts-sym, 0.239: level 16 is finished
+dve2lts-sym, 0.245: level 17 is finished
+dve2lts-sym, 0.249: level 18 is finished
+dve2lts-sym, 0.252: level 19 is finished
+dve2lts-sym, 0.254: level 20 is finished
+dve2lts-sym, 0.257: level 21 is finished
+dve2lts-sym, 0.258: level 22 is finished
+dve2lts-sym, 0.259: level 23 is finished
+dve2lts-sym, 0.260: Exploration took 984 group checks and 984 next state calls
+dve2lts-sym, 0.260: reachability took 0.150 real 0.060 user 0.070 sys
+dve2lts-sym, 0.260: counting visited states...
+dve2lts-sym, 0.260: counting took 0.000 real 0.000 user 0.000 sys
+dve2lts-sym, 0.260: state space has 3186 states, 1514 nodes
+dve2lts-sym, 0.261: group_next: 946 nodes total
+dve2lts-sym, 0.261: group_explored: 3253 nodes, 9948 short vectors total

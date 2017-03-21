@@ -1,0 +1,44 @@
+pnml2lts-sym, 0.000: Exploration order is bfs-prev
+pnml2lts-sym, 0.000: Saturation strategy is none
+pnml2lts-sym, 0.000: Guided search strategy is unguided
+pnml2lts-sym, 0.000: Attractor strategy is default
+pnml2lts-sym, 0.000: opening pnml/afcs_96_b.pnml
+pnml2lts-sym, 0.165: Petri net has 7894 places, 7868 transitions and 18200 arcs
+pnml2lts-sym, 0.167: There are 7894 safe places
+pnml2lts-sym, 0.809: Petri net pnml/afcs_96_b.pnml analyzed
+pnml2lts-sym, 0.893: Loading Petri net took 0.890 real 0.850 user 0.040 sys
+pnml2lts-sym, 0.893: Initializing regrouping layer
+pnml2lts-sym, 0.925: Regroup specification: f
+pnml2lts-sym, 0.925: Regroup FORCE
+pnml2lts-sym, 440.821: Regrouping: 7868->7868 groups
+pnml2lts-sym, 444.301: Regrouping took 443.410 real 443.170 user 0.080 sys
+pnml2lts-sym, 444.301: state vector length is 7894; there are 7868 groups
+pnml2lts-sym, 444.301: Creating a Sylvan domain.
+pnml2lts-sym, 444.301: Sylvan allocates 10.500 GB virtual memory for nodes table and operation cache.
+pnml2lts-sym, 444.301: Initial nodes table and operation cache requires 672.00 MB.
+pnml2lts-sym, 444.721: Using GBgetTransitionsShortR2W as next-state function
+pnml2lts-sym, 446.524: got initial state
+pnml2lts-sym, 446.567: level 0 is finished
+pnml2lts-sym, 446.713: vrel_add_act not supported; falling back to vrel_add_cpy
+pnml2lts-sym, 447.759: level 1 is finished
+pnml2lts-sym, 447.913: level 2 is finished
+pnml2lts-sym, 448.061: level 3 is finished
+pnml2lts-sym, 448.228: level 4 is finished
+pnml2lts-sym, 448.451: level 5 is finished
+pnml2lts-sym, 448.664: level 6 is finished
+pnml2lts-sym, 448.912: level 7 is finished
+pnml2lts-sym, 449.191: level 8 is finished
+pnml2lts-sym, 449.505: level 9 is finished
+pnml2lts-sym, 449.850: level 10 is finished
+pnml2lts-sym, 450.239: level 11 is finished
+pnml2lts-sym, 450.687: level 12 is finished
+pnml2lts-sym, 451.195: level 13 is finished
+pnml2lts-sym, 451.777: level 14 is finished
+pnml2lts-sym, 452.441: level 15 is finished
+pnml2lts-sym, 453.217: level 16 is finished
+pnml2lts-sym, 454.072: level 17 is finished
+pnml2lts-sym, 455.098: level 18 is finished
+pnml2lts-sym, 456.319: level 19 is finished
+pnml2lts-sym, 457.932: level 20 is finished
+pnml2lts-sym, 460.302: level 21 is finished
+pnml2lts-sym, 463.603: level 22 is finished

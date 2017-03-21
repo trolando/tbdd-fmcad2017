@@ -1,0 +1,85 @@
+pnml2lts-sym, 0.000: Exploration order is bfs-prev
+pnml2lts-sym, 0.000: Saturation strategy is none
+pnml2lts-sym, 0.000: Guided search strategy is unguided
+pnml2lts-sym, 0.000: Attractor strategy is default
+pnml2lts-sym, 0.000: opening pnml/CircularTrain-024.pnml
+pnml2lts-sym, 0.004: Petri net has 48 places, 24 transitions and 96 arcs
+pnml2lts-sym, 0.004: There are 0 safe places
+pnml2lts-sym, 0.004: Petri net pnml/CircularTrain-024.pnml analyzed
+pnml2lts-sym, 0.006: Loading Petri net took 0.010 real 0.000 user 0.000 sys
+pnml2lts-sym, 0.006: Initializing regrouping layer
+pnml2lts-sym, 0.006: Regroup specification: f
+pnml2lts-sym, 0.006: Regroup FORCE
+pnml2lts-sym, 0.008: Regrouping: 24->24 groups
+pnml2lts-sym, 0.008: Regrouping took 0.000 real 0.010 user 0.000 sys
+pnml2lts-sym, 0.008: state vector length is 48; there are 24 groups
+pnml2lts-sym, 0.008: Creating a multi-core ListDD domain.
+pnml2lts-sym, 0.008: Sylvan allocates 10.500 GB virtual memory for nodes table and operation cache.
+pnml2lts-sym, 0.008: Initial nodes table and operation cache requires 672.00 MB.
+pnml2lts-sym, 0.058: Using GBgetTransitionsShortR2W as next-state function
+pnml2lts-sym, 0.116: got initial state
+pnml2lts-sym, 0.116: level 0 is finished
+pnml2lts-sym, 0.196: level 1 is finished
+pnml2lts-sym, 0.198: level 2 is finished
+pnml2lts-sym, 0.202: level 3 is finished
+pnml2lts-sym, 0.208: level 4 is finished
+pnml2lts-sym, 0.217: level 5 is finished
+pnml2lts-sym, 0.227: level 6 is finished
+pnml2lts-sym, 0.240: level 7 is finished
+pnml2lts-sym, 0.254: level 8 is finished
+pnml2lts-sym, 0.269: level 9 is finished
+pnml2lts-sym, 0.283: level 10 is finished
+pnml2lts-sym, 0.300: level 11 is finished
+pnml2lts-sym, 0.320: level 12 is finished
+pnml2lts-sym, 0.339: level 13 is finished
+pnml2lts-sym, 0.358: level 14 is finished
+pnml2lts-sym, 0.379: level 15 is finished
+pnml2lts-sym, 0.400: level 16 is finished
+pnml2lts-sym, 0.421: level 17 is finished
+pnml2lts-sym, 0.443: level 18 is finished
+pnml2lts-sym, 0.465: level 19 is finished
+pnml2lts-sym, 0.486: level 20 is finished
+pnml2lts-sym, 0.508: level 21 is finished
+pnml2lts-sym, 0.529: level 22 is finished
+pnml2lts-sym, 0.550: level 23 is finished
+pnml2lts-sym, 0.571: level 24 is finished
+pnml2lts-sym, 0.592: level 25 is finished
+pnml2lts-sym, 0.613: level 26 is finished
+pnml2lts-sym, 0.635: level 27 is finished
+pnml2lts-sym, 0.657: level 28 is finished
+pnml2lts-sym, 0.680: level 29 is finished
+pnml2lts-sym, 0.702: level 30 is finished
+pnml2lts-sym, 0.723: level 31 is finished
+pnml2lts-sym, 0.743: level 32 is finished
+pnml2lts-sym, 0.762: level 33 is finished
+pnml2lts-sym, 0.780: level 34 is finished
+pnml2lts-sym, 0.797: level 35 is finished
+pnml2lts-sym, 0.814: level 36 is finished
+pnml2lts-sym, 0.830: level 37 is finished
+pnml2lts-sym, 0.845: level 38 is finished
+pnml2lts-sym, 0.859: level 39 is finished
+pnml2lts-sym, 0.873: level 40 is finished
+pnml2lts-sym, 0.885: level 41 is finished
+pnml2lts-sym, 0.897: level 42 is finished
+pnml2lts-sym, 0.908: level 43 is finished
+pnml2lts-sym, 0.918: level 44 is finished
+pnml2lts-sym, 0.927: level 45 is finished
+pnml2lts-sym, 0.934: level 46 is finished
+pnml2lts-sym, 0.940: level 47 is finished
+pnml2lts-sym, 0.946: level 48 is finished
+pnml2lts-sym, 0.951: level 49 is finished
+pnml2lts-sym, 0.955: level 50 is finished
+pnml2lts-sym, 0.958: level 51 is finished
+pnml2lts-sym, 0.961: level 52 is finished
+pnml2lts-sym, 0.964: level 53 is finished
+pnml2lts-sym, 0.966: level 54 is finished
+pnml2lts-sym, 0.968: level 55 is finished
+pnml2lts-sym, 0.969: level 56 is finished
+pnml2lts-sym, 0.970: Exploration took 1368 group checks and 1368 next state calls
+pnml2lts-sym, 0.970: reachability took 0.850 real 0.760 user 0.090 sys
+pnml2lts-sym, 0.970: counting visited states...
+pnml2lts-sym, 0.970: counting took 0.000 real 0.000 user 0.000 sys
+pnml2lts-sym, 0.970: state space has 86515 states, 2494 nodes
+pnml2lts-sym, 0.971: group_next: 248 nodes total
+pnml2lts-sym, 0.971: group_explored: 286 nodes, 232 short vectors total
+pnml2lts-sym, 0.971: max token count: 2
