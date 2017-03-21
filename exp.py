@@ -4,9 +4,10 @@ from contextlib import contextmanager
 import os
 import sys
 import re
+import json
 from itertools import chain, ifilter
 from tabulate import tabulate
-from numpy import nanmin
+from numpy import nanmin, isnan
 
 # import framework
 from expfw import Experiment, ExperimentEngine, online_variance, fixnan
@@ -15,6 +16,19 @@ from expfw import Experiment, ExperimentEngine, online_variance, fixnan
 colors = True
 if colors:
     from termcolor import colored
+
+
+def colored_to_float(line):
+    ansi_escape = re.compile(r'(\x9B|\x1B\[)[0-?]*[ -\/]*[@-~]')
+    s = ansi_escape.sub('', line).strip()
+    try:
+        return float(s)
+    except ValueError:
+        return s
+
+
+def removecolors(table):
+    return [[colored_to_float(s) for s in row] for row in table]
 
 
 class ExpLTSmin(Experiment):
@@ -174,11 +188,26 @@ class DveExperiments(object):
         headers = ["Model      ", "#bdd1", "#bdd48", "#tbdd1", "#tbdd48", "#ldd1", "#ldd48"]
         print(tabulate(table, headers))
 
+        with open("exp_counts.json", "w") as f:
+            json.dump(table, f)
+
         print()
 
         # Remove experiments that are not done
         exp_sum = lambda r: r['n_bdd1'] + r['n_bdd48'] + r['n_tbdd1'] + r['n_tbdd48'] + r['n_ldd1'] + r['n_ldd48']
         names = sorted(filter(lambda f: exp_sum(res[f]) > 0, res.keys()))
+
+        n_1 = 0
+        n_48 = 0
+        sum_bdd1 = 0
+        sum_tbdd1 = 0
+        sum_bdd48 = 0
+        sum_tbdd48 = 0
+        sum_ldd1 = 0
+        sum_ldd48 = 0
+        sum_nbdd = 0
+        sum_ntbdd = 0
+        sum_nldd = 0
 
         # Report times
         table = []
@@ -217,10 +246,26 @@ class DveExperiments(object):
                           "{:<6.2f}".format((s_tbdd)),
                           "{:<6.2f}".format((s_ldd)),
                           ])
+            if (not isnan(r['t_bdd1']) and not isnan(r['t_tbdd1']) and not isnan(r['t_ldd1']) and
+                    not isnan(r['t_bdd48']) and not isnan(r['t_tbdd48']) and not isnan(r['t_ldd48'])):
+                n_1 += 1
+                sum_bdd1 += r['t_bdd1']
+                sum_tbdd1 += r['t_tbdd1']
+                sum_ldd1 += r['t_ldd1']
+                n_48 += 1
+                sum_bdd48 += r['t_bdd48']
+                sum_tbdd48 += r['t_tbdd48']
+                sum_ldd48 += r['t_ldd48']
+                sum_nbdd += r['nodes_bdd48']
+                sum_ntbdd += r['nodes_tbdd48']
+                sum_nldd += r['nodes_ldd48']
 
         table = fixnan(table)
         headers = ["Model      ", "T_bdd1", "T_bdd48", "Sbdd", "T_tbdd1", "T_tbdd48", "Stbdd", "T_ldd1", "T_ldd48", "Sldd"]
         print(tabulate(table, headers))
+
+        with open("exp_times.json", "w") as f:
+            json.dump(removecolors(table), f)
 
         print()
 
@@ -249,6 +294,13 @@ class DveExperiments(object):
         table = fixnan(table)
         headers = ["Model      ", "N_bdd", "N_tbdd", "N_ldd"]
         print(tabulate(table, headers))
+
+        with open("exp_nodes.json", "w") as f:
+            json.dump(removecolors(table), f)
+
+        print("sum 1: {} BDD, {} TBDD, {} LDD, of {}".format(sum_bdd1, sum_tbdd1, sum_ldd1, n_1))
+        print("sum 48: {} BDD, {} TBDD, {} LDD, of {}".format(sum_bdd48, sum_tbdd48, sum_ldd48, n_48))
+        print("nodes: {} BDD, {} TBDD, {} LDD".format(sum_nbdd, sum_ntbdd, sum_nldd))
 
 
 class PnmlExperiments(DveExperiments):
@@ -280,7 +332,7 @@ dve = DveExperiments()
 pnml = PnmlExperiments()
 
 # make engine
-sr = ExperimentEngine(outdir='logs', timeout=1200)
+sr = ExperimentEngine(outdir='logs', timeout=1800)
 sr += dve
 # sr += pnml
 
